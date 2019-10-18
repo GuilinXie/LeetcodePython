@@ -132,7 +132,7 @@
 
 | ID   | Title                                                        | Solution   | Difficulty | Locked |
 | ---- | ------------------------------------------------------------ | ---------- | ---------- | ------ |
-| 1192 | [Critical Connection in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python]() | Hard       | -      |
+| 1192 | [Critical Connection in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python]() | Hard       |        |
 |      |                                                              |            |            |        |
 |      |                                                              |            |            |        |
 
