@@ -130,11 +130,11 @@
 
 ### Graph
 
-| ID   | Title                                                        | Solution                                                     | Difficulty | C/L  | Knowledge                             |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ------------------------------------- |
-| 1192 | [Critical Connection in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1192_CriticalConnectionInANetwork.py) | Hard       | 1    | Bridage, Articulation Point Algorithm |
-|      |                                                              |                                                              |            |      |                                       |
-|      |                                                              |                                                              |            |      |                                       |
+| ID   | Title                                                        | Solution                                                     | Difficulty | C/L  | Knowledge                                            |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ---------------------------------------------------- |
+| 1192 | [Critical Connection in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1192_CriticalConnectionInANetwork.py) | Hard       | 1    | Bridage, Articulation Point (Tarjan Algorithm - DFS) |
+|      |                                                              |                                                              |            |      |                                                      |
+|      |                                                              |                                                              |            |      |                                                      |
 
 ### Dynamic Programming
 
