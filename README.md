@@ -82,11 +82,11 @@
 
 ### Binary Search
 
-| ID   | Title | Solution | Difficulty | Locked |
-| ---- | ----- | -------- | ---------- | ------ |
-|      |       |          |            |        |
-|      |       |          |            |        |
-|      |       |          |            |        |
+| ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | --------- |
+| 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python]([https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Binary%20Search/74_Search%20a%202D%20Matrix.py](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Binary Search/74_Search a 2D Matrix.py)) | Medium     | 1    |           |
+| 240  | [Search a 2D Matrix 2](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python]([https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Binary%20Search/240_Search%20a%202D%20Matrix%202.py](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Binary Search/240_Search a 2D Matrix 2.py)) | Medium     | 1    |           |
+|      |                                                              |                                                              |            |      |           |
 
 ### Sort
 
