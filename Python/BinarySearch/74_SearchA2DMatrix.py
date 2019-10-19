@@ -1,4 +1,5 @@
 class Solution:
+
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         if len(matrix) <= 0 or len(matrix[0]) <= 0:
             return False
