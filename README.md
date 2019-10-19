@@ -84,8 +84,8 @@
 
 | ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | --------- |
-| 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BinarySearch/74_Search a 2D Matrix.py) | Medium     | 1    |           |
-| 240  | [Search a 2D Matrix 2](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BinarySearch/240_Search a 2D Matrix 2.py) | Medium     | 1    |           |
+| 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BinarySearch/74_SearchA2DMatrix.py) | Medium     | 1    |           |
+| 240  | [Search a 2D Matrix 2](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BinarySearch/240_SearchA2DMatrix2.py) | Medium     | 1    |           |
 |      |                                                              |                                                              |            |      |           |
 
 ### Sort
