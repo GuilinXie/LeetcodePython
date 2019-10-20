@@ -154,10 +154,10 @@
 
 ### ListIntersection
 
-| ID   | Title                                                        | Solution   | Difficulty | Locked |
-| ---- | ------------------------------------------------------------ | ---------- | ---------- | ------ |
-| 1229 | [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/) | [Python]() |            |        |
-|      |                                                              |            |            |        |
-|      |                                                              |            |            |        |
+| ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge               |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ----------------------- |
+| 1229 | [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/ListIntersection/1229_MeetingScheduler.py) | Medium     | 1    | List Slots Intersection |
+|      |                                                              |                                                              |            |      |                         |
+|      |                                                              |                                                              |            |      |                         |
 
 ### 
