@@ -1,5 +1,6 @@
 # SOLUTION 1: Two Pointers, Average Time Complexity O(n)
 class Solution:
+
     def minAvailableDuration(self, slots1, slots2, duration):
         i, j = 0, 0
         n1 = len(slots1)
