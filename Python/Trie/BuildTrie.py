@@ -6,7 +6,6 @@ from typing import Dict, Any
 reference: https://zhuanlan.zhihu.com/p/47220472
 '''
 
-
 class Solution():
 
     def __init__(self):
