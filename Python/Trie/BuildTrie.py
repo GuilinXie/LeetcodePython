@@ -10,7 +10,7 @@ reference: https://zhuanlan.zhihu.com/p/47220472
 class Solution():
 
     def __init__(self):
-        self.trie = {}
+        self.trie = dict()
 
     def buildTrie(self, words):
 
@@ -24,7 +24,7 @@ class Solution():
             t = self.trie
             for c in word:
                 if c not in t:
-                    t[c] = {}
+                    t[c] = dict()
                 t = t[c]
             t["#"] = "#"
         return self.trie
@@ -50,7 +50,7 @@ class Solution():
 if __name__ == "__main__":
     s = Solution()
     res = s.buildTrie(['cat','category','tree','trace','top'])
-    print (res)
+    # print (res)
     # print (s.search("category"))
     # print (s.search("cata"))
     # print (s.search("tree"))

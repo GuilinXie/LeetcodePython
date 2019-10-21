@@ -2,9 +2,10 @@ import collections
 
 class Solution(object):
     def removeSubfolders(self, A):
-        Trie = lambda: collections.defaultdict(Trie)
+        # Trie = lambda: collections.defaultdict(Trie)
         END = "#"
-        trie = Trie()
+        # trie = Trie()
+        trie = dict()
 
         rows = []
         for i, row in enumerate(A):
@@ -19,6 +20,8 @@ class Solution(object):
             flag = True
             cur = trie
             for x in row:
+                if x not in cur:
+                    cur[x] = dict()
                 cur = cur[x]
                 if END in cur:
                     flag = False   # it has the prefix
