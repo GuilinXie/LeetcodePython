@@ -3,10 +3,10 @@ import collections
 class Solution(object):
     def removeSubfolders(self, A):
         # Trie = lambda: collections.defaultdict(Trie)
-        END = "#"
         # trie = Trie()
-        trie = dict()
 
+        END = "#"
+        trie = dict()
         rows = []
         for i, row in enumerate(A):
             row = row.split('/')
