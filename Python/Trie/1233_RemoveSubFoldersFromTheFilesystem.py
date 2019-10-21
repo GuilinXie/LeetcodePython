@@ -1,5 +1,6 @@
 import collections
 
+# Solution 1 - Trie
 class Solution(object):
     def removeSubfolders(self, A):
         # Trie = lambda: collections.defaultdict(Trie)
@@ -30,6 +31,25 @@ class Solution(object):
                 cur[END] = "#"
                 ans.append(A[i])
         return ans
+
+# Solution 2: no Trie
+# class Solution:
+#     def removeSubfolders(self, folder: List[str]) -> List[str]:
+#         folder.sort(key = lambda x: len(x))
+#         d = set()
+#         ans = list()
+#         for f in folder:
+#             path = f.split("/")
+#             flag = True
+#             for i in range(2, len(path)):
+#                 cur = "/".join(path[:i])
+#                 if cur in d:
+#                     flag = False
+#                     break
+#             if flag:
+#                 d.add(f)
+#                 ans.append(f)
+#         return ans
 
 if __name__ == "__main__":
     s = Solution()
