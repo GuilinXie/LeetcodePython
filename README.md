@@ -80,6 +80,14 @@
 |      |       |          |            |        |
 |      |       |          |            |        |
 
+### Trie
+
+| ID   | Title | Solution | Difficulty | Locked |
+| ---- | ----- | -------- | ---------- | ------ |
+|      |       |          |            |        |
+|      |       |          |            |        |
+|      |       |          |            |        |
+
 ### Binary Search
 
 | ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge |
