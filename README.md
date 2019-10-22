@@ -50,11 +50,11 @@
 
 ### SlidingWindow
 
-| ID   | Title | Solution | Difficulty | Locked |
-| ---- | ----- | -------- | ---------- | ------ |
-|      |       |          |            |        |
-|      |       |          |            |        |
-|      |       |          |            |        |
+| ID   | Title                                                        | Solution                                                     | Difficulty | C    |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
+| 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/76_MinimumWindowSubstring.py) | Hard       | 1    |
+|      |                                                              |                                                              |            |      |
+|      |                                                              |                                                              |            |      |
 
 ### Bitwise
 
