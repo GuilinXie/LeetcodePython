@@ -10,11 +10,11 @@
 
 ### LinkedList
 
-| ID   | Title | Solution | Difficulty | Locked |
-| ---- | ----- | -------- | ---------- | ------ |
-|      |       |          |            |        |
-|      |       |          |            |        |
-|      |       |          |            |        |
+| ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge          |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ------------------ |
+| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/138_CopyListWithRandomPointer.py) | Medium     | 1    | LinkedList,Hashmap |
+|      |                                                              |                                                              |            |      |                    |
+|      |                                                              |                                                              |            |      |                    |
 
 ### String
 
