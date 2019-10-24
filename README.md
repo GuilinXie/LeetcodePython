@@ -18,11 +18,11 @@
 
 ### String
 
-| ID   | Title | Solution | Difficulty | Locked |
-| ---- | ----- | -------- | ---------- | ------ |
-|      |       |          |            |        |
-|      |       |          |            |        |
-|      |       |          |            |        |
+| ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | --------- |
+| 12   | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/12_IntegerToRoman.py) | Medium     | 1    |           |
+| 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/13_RomanToInteger.py) | Easy       | 1    |           |
+|      |                                                              |                                                              |            |      |           |
 
 ### Stack
 
