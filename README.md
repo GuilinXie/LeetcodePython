@@ -172,8 +172,9 @@
 
 | ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge                                                  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ---------------------------------------------------------- |
-| 1    | [Walk through dir]([http://nooverfit.com/wp/15%E4%B8%AA%E9%87%8D%E8%A6%81python%E9%9D%A2%E8%AF%95%E9%A2%98-%E6%B5%8B%E6%B5%8B%E4%BD%A0%E9%80%82%E4%B8%8D%E9%80%82%E5%90%88%E5%81%9Apython%EF%BC%9F/](http://nooverfit.com/wp/15个重要python面试题-测测你适不适合做python？/)) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Others/1_walk_through_dir.py) |            | 1    | os.getcwd(), os.listdir(), os.path.join(), os.path.isdir() |
+| 1    | [Walk through dir](http://nooverfit.com/wp/15%E4%B8%AA%E9%87%8D%E8%A6%81python%E9%9D%A2%E8%AF%95%E9%A2%98-%E6%B5%8B%E6%B5%8B%E4%BD%A0%E9%80%82%E4%B8%8D%E9%80%82%E5%90%88%E5%81%9Apython%EF%BC%9F/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Others/1_walk_through_dir.py) |            | 1    | os.getcwd(), os.listdir(), os.path.join(), os.path.isdir() |
 |      |                                                              |                                                              |            |      |                                                            |
 |      |                                                              |                                                              |            |      |                                                            |
 
  
+
