@@ -5,7 +5,7 @@
 #         self.next = None
 
 class Solution:
-    def hasCycle(self, head: ListNode) -> bool:
+    def detectCycle(self, head: ListNode) -> ListNode:
         if head == None or head.next == None:
             return None
         slow = head
@@ -13,6 +13,12 @@ class Solution:
         while fast != None and fast.next != None:
             slow = slow.next
             fast = fast.next.next
-            if fast == slow:
-                return True
-        return False
+            if slow == fast:
+                break
+        if fast == None or fast.next == None:
+            return None
+        slow = head
+        while slow != fast:
+            slow = slow.next
+            fast = fast.next
+        return slow
