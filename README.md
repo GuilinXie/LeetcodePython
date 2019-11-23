@@ -10,11 +10,11 @@
 
 ### LinkedList
 
-| ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge          |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ------------------ |
-| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/138_CopyListWithRandomPointer.py) | Medium     | 1    | LinkedList,Hashmap |
-|      |                                                              |                                                              |            |      |                    |
-|      |                                                              |                                                              |            |      |                    |
+| ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge                                      |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ---------------------------------------------- |
+| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/138_CopyListWithRandomPointer.py) | Medium     | 1    | LinkedList,Hashmap                             |
+| 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/141_linked_list_cycle.py) | Easy       | 1    |                                                |
+| 142  | [Linked List Cycle 2](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/142_linked_list_cycle_2.py) | Medium     | 1    | slow & fast should move together in while loop |
 
 ### String
 
@@ -146,11 +146,11 @@
 
 ### Dynamic Programming
 
-| ID   | Title                                                        | Solution                                                     | Difficulty | Locked |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------ |
-| 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/5_LongestPalindromicSubstring.py) | Medium     | 1      |
-|      |                                                              |                                                              |            |        |
-|      |                                                              |                                                              |            |        |
+| ID   | Title                                                        | Solution                                                     | Difficulty | C/Locked |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | -------- |
+| 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/5_LongestPalindromicSubstring.py) | Medium     | 1        |
+| 72   | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/72_edit_distance.py) | Hard       | 1        |
+|      |                                                              |                                                              |            |          |
 
 ### Heap
 
