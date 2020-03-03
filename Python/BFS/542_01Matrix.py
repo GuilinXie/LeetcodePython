@@ -17,8 +17,7 @@ class Solution:
             result[r][c] = depth
             neighbor = [(r-1, c), (r+1, c), (r, c-1), (r, c+1)]
             for nei in neighbor:
-                if nei not in seen:
-                    if 0 <= nei[0] < m and 0 <= nei[1] < n:
+                if nei not in seen and 0 <= nei[0] < m and 0 <= nei[1] < n:
                         seen.add(nei)
                         q.append((nei, depth + 1))
         return result
