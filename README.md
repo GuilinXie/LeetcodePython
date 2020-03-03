@@ -109,7 +109,7 @@
 | ID   | Title | Solution | Difficulty | Locked |
 | ---- | ----- | -------- | ---------- | ------ |
 |      | Amazon Phone Interview  Max Island    |[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/maxIsland.py)|            |    dfs func returns sum number   |
-|  200    |   Number of Island    |   [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/200_Number_of_Islands.py)       |     Medium       |    dfs func does not return     |
+|  200    |   [Number of Island](https://leetcode.com/problems/number-of-islands/)    |   [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/200_Number_of_Islands.py)       |     Medium       |    dfs func does not return     |
 |      |       |          |            |        |
 
 ### BFS
