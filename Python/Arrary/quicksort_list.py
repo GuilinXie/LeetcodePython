@@ -19,7 +19,6 @@ def quicksort(A, low, high):
 # Method 2 - From Introduction to Algorithms
 # https://blog.csdn.net/razor87/article/details/71155518
 def quick_sort(A, l, r):
-    print("OK")
     if l < r:
         q = partition(A, l, r)
         quick_sort(A, l, q - 1)
