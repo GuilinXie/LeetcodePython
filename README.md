@@ -6,7 +6,7 @@
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
 | 54   | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/54_SpiralMatrix.py) | Medium     | 1    |
 | 59   | [Spiral Matrix 2](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/59_SpiralMatrix2.py) | Medium     | 1    |
-|      |                                                              |                                                              |            |      |
+|      |      quick sort/quicksort/quick_sort  |                                                              |            |      |
 
 ### LinkedList
 
