@@ -109,10 +109,11 @@
 
 | ID   | Title | Solution | Difficulty | Locked |
 | ---- | ----- | -------- | ---------- | ------ |
-
 |  200    |   [Number of Island](https://leetcode.com/problems/number-of-islands/)    |   [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/200_Number_of_Islands.py)       |     Medium       |    dfs func does not return     |
-|    695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)      |  [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/695_Max_Area_of_Island.py)        |      Medium      |   dfs func returns sum number     |
-|      | Max Island    |[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/maxIsland.py)|            |    Amazon Phone Interview, similar to 695   |
+|    695  |  [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/695_Max_Area_of_Island.py)  | Medium | dfs func returns sum |
+|      | Max Island    |[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/maxIsland.py)|       |    Amazon Phone Interview, similar to 695   |
+
+
 
 ### BFS
 
