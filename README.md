@@ -17,6 +17,25 @@
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/141_linked_list_cycle.py) | Easy       | 1    |                                                |
 | 142  | [Linked List Cycle 2](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/142_linked_list_cycle_2.py) | Medium     | 1    | slow & fast should move together in while loop |
 
+### DFS
+
+| ID   | Title | Solution | Difficulty | Locked |
+| ---- | ----- | -------- | ---------- | ------ |
+|  200    |   [Number of Island](https://leetcode.com/problems/number-of-islands/)    |   [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/200_Number_of_Islands.py)       |     Medium       |    dfs func does not return     |
+|    695  |  [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/695_Max_Area_of_Island.py)  | Medium | dfs func returns sum |
+|      | Max Island    |[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/maxIsland.py)|       |    Amazon Phone Interview, similar to 695   |
+|    1192  |  [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1192_CriticalConnectionInANetwork.py)| Hard |  |
+|    207  |  [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/207_Course_Schedule.py)| Medium |  |
+
+### BFS
+
+| ID   | Title                                                 | Solution                                                     | Difficulty | Locked          |
+| ---- | ----------------------------------------------------- | ------------------------------------------------------------ | ---------- | --------------- |
+| 542  | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/542_01Matrix.py) | Medium     | BFS,deque,yield |
+| 1131 |                                                       |                                                              |            |                 |
+|      |                                                       |                                                              |            |                 |
+
+
 ### String
 
 | ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge |
@@ -105,24 +124,6 @@
 |      |       |          |            |        |
 |      |       |          |            |        |
 
-### DFS
-
-| ID   | Title | Solution | Difficulty | Locked |
-| ---- | ----- | -------- | ---------- | ------ |
-|  200    |   [Number of Island](https://leetcode.com/problems/number-of-islands/)    |   [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/200_Number_of_Islands.py)       |     Medium       |    dfs func does not return     |
-|    695  |  [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/695_Max_Area_of_Island.py)  | Medium | dfs func returns sum |
-|      | Max Island    |[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/maxIsland.py)|       |    Amazon Phone Interview, similar to 695   |
-|    1192  |  [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1192_CriticalConnectionInANetwork.py)| Hard |  |
-
-
-
-### BFS
-
-| ID   | Title                                                 | Solution                                                     | Difficulty | Locked          |
-| ---- | ----------------------------------------------------- | ------------------------------------------------------------ | ---------- | --------------- |
-| 542  | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/542_01Matrix.py) | Medium     | BFS,deque,yield |
-| 1131 |                                                       |                                                              |            |                 |
-|      |                                                       |                                                              |            |                 |
 
 ### Greedy
 
