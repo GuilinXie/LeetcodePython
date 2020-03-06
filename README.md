@@ -32,6 +32,7 @@
 | ID   | Title                                                 | Solution                                                     | Difficulty | Locked          |
 | ---- | ----------------------------------------------------- | ------------------------------------------------------------ | ---------- | --------------- |
 | 542  | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/542_01Matrix.py) | Medium     | BFS,deque,yield |
+| 994  | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/994_Rotting_Oranges.py) | Easy     | BFS,deque, check edges with all 0's |
 | 1131 |                                                       |                                                              |            |                 |
 |      |                                                       |                                                              |            |                 |
 
