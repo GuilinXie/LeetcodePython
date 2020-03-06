@@ -20,3 +20,6 @@ def dfs(A, i, j, visited):
     neighbors = [(i - 1, j), (i + 1, j), (i, j - 1), (i, j + 1)]
     for new_i, new_j in neighbors:
         dfs(A, new_i, new_j, visited)
+        
+# if A is too large, and we do not want to keep a visited set, and we can change A
+# then we can change A[i][j] = "#", after visiting (i, j)
