@@ -36,7 +36,7 @@
 | 542  | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/542_01Matrix.py) | Medium     | BFS,deque,yield |
 | 994  | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/994_Rotting_Oranges.py) | Easy     | BFS,deque, check edges with all 0's |
 |    207  |  [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/207_Course_Schedule.py)| Medium |dfs,bfs(topological sort)  |
-|    207  |  [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/210_Course Schedule_2.py)| Medium |bfs(topological sort)  |
+|    207  |  [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/210_Course_Schedule_2.py)| Medium |bfs(topological sort)  |
 | 1131 |                                                       |                                                              |            |                 |
 |      |                                                       |                                                              |            |                 |
 
