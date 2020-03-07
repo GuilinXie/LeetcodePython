@@ -9,6 +9,7 @@
 |      |      quick sort/quicksort/quick_sort  |   [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/quicksort_list.py) |            |      |
 | 215   | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/215_Kth_Largest_Element_in_an_Array.py) | Medium     | 1    |
 | 4   | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/4_Median_of_Two_Sorted_Arrays.py) | Medium     | 1    |
+| 295   | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/295_Find_Median_from_Data_Stream.py) | Hard     | 1    |
 
 ### LinkedList
 
