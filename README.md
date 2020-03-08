@@ -27,6 +27,7 @@
 |    695  |  [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/695_Max_Area_of_Island.py)  | Medium | dfs func returns sum |
 |      | Max Island    |[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/maxIsland.py)|       |    Amazon Phone Interview, similar to 695   |
 |    1192  |  [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1192_CriticalConnectionInANetwork.py)| Hard |  |
+|    1376  |  [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1376_Time_Needed_to_Inform_All_Employees.py)| Medium | weighted tree ,find a path sum|
 
 
 ### BFS
