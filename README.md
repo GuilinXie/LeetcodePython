@@ -30,7 +30,6 @@
 |    1192  |  [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1192_CriticalConnectionInANetwork.py)| Hard |  |
 |    1376  |  [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1376_Time_Needed_to_Inform_All_Employees.py)| Medium | weighted tree ,find a path sum|
 |    1376 - keep path  |  [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1376_path_Time_Needed_to_Inform_All_Employees.py)| Medium |get the path from 1376|
-
 |    104  |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/104_Maximum_Depth_of_Binary_Tree.py)| Easy |  |
 |    111  |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/111_Minimum_Depth_of_Binary_Tree.py)| Easy | root->leaf,need to care about leaf condition |
 
