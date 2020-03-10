@@ -19,6 +19,7 @@
 | 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/138_CopyListWithRandomPointer.py) | Medium     | 1    | LinkedList,Hashmap                             |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/141_linked_list_cycle.py) | Easy       | 1    |                                                |
 | 142  | [Linked List Cycle 2](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/142_linked_list_cycle_2.py) | Medium     | 1    | slow & fast should move together in while loop |
+| 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/146_LRU_Cache.py) | Medium     | 1    | Double LinkedList, hashtable->dict |
 
 ### DFS
 
