@@ -87,7 +87,7 @@
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
 | 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/76_MinimumWindowSubstring.py) | Hard       | 1    |
 | 1234 | [Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/1234_ReplaceTheSubstringForBalancedString.py) | Medium     | 1    |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python(https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/3_Longest_Substring_Without_Repeating_Characters.py)| Medium| 1    |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python (https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/3_Longest_Substring_Without_Repeating_Characters.py)| Medium| 1    |
 
 
 ### Bitwise
