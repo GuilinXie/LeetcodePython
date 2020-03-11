@@ -11,6 +11,7 @@
 | 4   | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/4_Median_of_Two_Sorted_Arrays.py) | Medium     | 1    |
 | 295   | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/295_Find_Median_from_Data_Stream.py) | Hard     | 1, heap    |
 | 1375   | [Blub Switcher 3](https://leetcode.com/problems/bulb-switcher-iii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1375_Bulb_Switcher_3.py) | Medium     | 1, keep a record of history, and update for every new data|
+| 1099   | [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1099_Two_Sum_Less_Than_K.py) | Medium     | sort -> two points|
 
 ### LinkedList
 
