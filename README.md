@@ -185,8 +185,7 @@
 | ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge               |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ----------------------- |
 | 1229 | [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/ListIntersection/1229_MeetingScheduler.py) | Medium     | 1    | List Slots Intersection |
-|      |                                                              |                                                              |            |      |                         |
-|      |                                                              |                                                              |            |      |                         |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/ListIntersection/56_Merge_Intervals.py) | Medium     | 1    | Intervals update trick |
 
 ### Others
 
