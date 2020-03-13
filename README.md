@@ -170,7 +170,9 @@
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | -------- |
 | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/5_LongestPalindromicSubstring.py) | Medium     | 1        |
 | 72   | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/72_edit_distance.py) | Hard       | 1        |
-|      |                                                              |                                                              |            |          |
+| 718   | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/718_Maximum_Length_of_Repeated_Subarray.py) | Medium   |   Recursive, DP, same to Longest Common Substring |
+| 1143   | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/1143_Longest_Common_Subsequence.py) | Medium | Recursive, cache, DP, relative order, similar to Longest Common Substring  |
+
 
 ### Heap
 
