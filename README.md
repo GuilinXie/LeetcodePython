@@ -118,6 +118,7 @@
 |    110  |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/110_Balanced_Binary_Tree.py)| Easy | check if balanced|
 |    108  |  [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/108_Convert_Sorted_Array_to_Binary_Search_Tree.py)| Easy | |
 |    1328 |  [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/1382_Balance_a_Binary_Search_Tree.py)| Medium | inorder traversal, convert to BST 108 |
+|    98 |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/98_Validate_Binary_Search_Tree.py)| Medium | keep boundary, or find left_max && right_min |
 
 
 
