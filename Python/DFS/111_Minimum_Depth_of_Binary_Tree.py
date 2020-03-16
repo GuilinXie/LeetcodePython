@@ -9,9 +9,14 @@ class Solution:
     def minDepth(self, root: TreeNode) -> int:
         if root == None:
             return 0
-        # because it is from root -> leaf, need to make sure the end node is a leaf
-        # a leaf = left child & right child are None
-        # if there is no requirement about leaf, then it is same as max depth of a tree
-        if root.left == None or root.right == None:
-            return self.minDepth(root.left) + self.minDepth(root.right) + 1
-        return min(self.minDepth(root.left), self.minDepth(root.right)) + 1
+        
+        # to make sure the end node is leaf, one of the child node is null
+        if root.left == None:
+            return 1 + self.minDepth(root.right)
+        if root.right == None:
+            return 1 + self.minDepth(root.left)
+        
+        # both left and right child node are not null
+        left = 1 + self.minDepth(root.left)
+        right = 1 + self.minDepth(root.right)
+        return min(left, right)
