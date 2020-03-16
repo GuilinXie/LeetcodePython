@@ -115,7 +115,7 @@
 | ---- | ----- | -------- | ---------- | ------ |
 |    104  |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/104_Maximum_Depth_of_Binary_Tree.py)| Easy |  |
 |    111  |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/111_Minimum_Depth_of_Binary_Tree.py)| Easy | root->leaf,need to care about leaf condition |
-|    111  |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/110_Balanced_Binary_Tree.py)| Easy | check if balanced|
+|    110  |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/110_Balanced_Binary_Tree.py)| Easy | check if balanced|
 
 
 
