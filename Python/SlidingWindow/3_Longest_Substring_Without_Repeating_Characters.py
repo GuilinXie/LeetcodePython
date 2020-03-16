@@ -23,10 +23,12 @@ class Solution:
         dic = dict()
         i = -1
         for j in range(0, n):
-            if s[j] in dic:
-                i = max(i, dic[s[j]])
-            res = max(res, j - i)
-            dic[s[j]] = j
+            ch = s[j]
+            if ch in dic and dic[ch] > i:
+                i = dic[ch]
+            if j - i > res:
+                res = j - i
+            dic[ch] = j
         return res
 
     # Method 2
