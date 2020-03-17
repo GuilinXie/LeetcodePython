@@ -119,6 +119,7 @@
 |    108  |  [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/108_Convert_Sorted_Array_to_Binary_Search_Tree.py)| Easy | |
 |    1328 |  [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/1382_Balance_a_Binary_Search_Tree.py)| Medium | inorder traversal, convert to BST 108 |
 |    98 |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/98_Validate_Binary_Search_Tree.py)| Medium | keep boundary, or find left_max && right_min |
+|    236 |  [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/236_Lowest_Common_Ancestor_of_a_Binary_Tree.py)| Medium | path, multiple path |
 
 
 
