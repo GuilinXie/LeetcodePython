@@ -122,6 +122,8 @@
 |    98 |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/98_Validate_Binary_Search_Tree.py)| Medium | keep boundary, or find left_max && right_min |
 |    236 |  [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/236_Lowest_Common_Ancestor_of_a_Binary_Tree.py)| Medium | path, multiple path |
 |    572 |  [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/572_Subtree_of_Another_Tree.py)| Easy | subtree, same tree |
+|    106 |  [Construct Binary Tree from Inorder and Postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.py)| Medium | recursive |
+
 
 
 
