@@ -59,7 +59,7 @@
 | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/13_RomanToInteger.py) | Easy       | 1    |           |
 | 819   | [Most_Common_Word](https://leetcode.com/problems/most-common-word/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/819_Most_Common_Word.py) | Easy | 1    | string separate by different punctuations, get max from Counter, stopwords|
 | 1360   | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Python](https://leetcode.com/problems/number-of-days-between-two-dates/) | Easy | 1    | leapyear, different days in months|
-
+| 139   | [Word Break](https://leetcode.com/problems/word-break/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/139_Word_Break.py) | Medium | 1    | recursive|
 
 
 
