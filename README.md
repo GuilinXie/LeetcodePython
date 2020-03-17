@@ -190,9 +190,9 @@
 
 | ID   | Title | Solution | Difficulty | Locked |
 | ---- | ----- | -------- | ---------- | ------ |
+|1383| [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/) |  [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Heap/1383_Maximum_Performance_of_a_Team.py)   |     Hard       |    Priority Queue    |
 |      |       |          |            |        |
-|      |       |          |            |        |
-|      |       |          |            |        |
+
 
 ### ListIntersection
 
