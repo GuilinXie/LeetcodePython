@@ -30,5 +30,6 @@ class Solution:
                     r = self.search(grid, new_i, new_j, s[1:], visited, cache)
                     if r:
                         return True
+                # It is not right to add cache.add(key) here, because backtrack from point A may use the different routes as from point B
             visited.remove((i, j))
         return False
