@@ -13,7 +13,7 @@
 | 1375   | [Blub Switcher 3](https://leetcode.com/problems/bulb-switcher-iii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1375_Bulb_Switcher_3.py) | Medium     | 1, keep a record of history, and update for every new data|
 | 1099   | [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1099_Two_Sum_Less_Than_K.py) | Medium     | sort -> two points|
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/42_Trapping_Rain_Water.py) | Hard     | Different Methods|
-
+| 348   | [Design Tic Tac Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/348_Design_Tic_Tac_Toe.py) | Medium     | Store data in a tricky way|
 
 ### LinkedList
 
