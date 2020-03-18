@@ -18,7 +18,7 @@ class Solution:
         banset = set(banned)
         for c in "!?',;.":
             paragraph = paragraph.replace(c, " ")
-        count = collections.Counter(word.strip() for word in paragraph.lower().split())
+        count = collections.Counter(word for word in paragraph.lower().split())
         print(count)
         ans, best = '', 0
         for word in count:
