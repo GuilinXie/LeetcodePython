@@ -24,6 +24,9 @@
 | 142  | [Linked List Cycle 2](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/142_linked_list_cycle_2.py) | Medium     | 1    | slow & fast should move together in while loop |
 | 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/146_LRU_Cache.py) | Medium     | 1    | Double LinkedList, hashtable->dict |
 | 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/2_Add_Two_Numbers.py) | Medium     | 1    | carry, digit = divmod(num,10)|
+| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/206_Reverse_Linked_List.py) | Easy     | 1    | 2 ways to reverse in-place|
+
+
 
 ### DFS
 
