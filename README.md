@@ -135,9 +135,9 @@
 
 ### Trie
 
-| ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | --------- |
-|      | Build and Search Trie Using dict()                           | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Trie/BuildTrie.py) |            |      |           |
+| ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | --------- |
+|      | Build and Search Trie Using dict()                           | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Trie/BuildTrie.py) |            |      |
 | 1233 | [Remove Sub Folders From The Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Trie/1233_RemoveSubFoldersFromTheFilesystem.py) | Medium     |      |   
 | 79 | [Word Search](https://leetcode.com/problems/word-search) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/79_Word_Search.py) | Medium     |  DFS, backtracking    | 
 | 642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Trie/642_Design_Search_Autocomplete_System.py) | Hard     | build trie, search trie, add autocomplete recommend words with dfs | 
