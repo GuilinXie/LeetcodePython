@@ -18,20 +18,20 @@
 
 ### LinkedList
 
-| ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge                                      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ---------------------------------------------- |
-| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/138_CopyListWithRandomPointer.py) | Medium     |     | LinkedList,Hashmap                             |
-| 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/141_linked_list_cycle.py) | Easy       |     |                                                |
-| 142  | [Linked List Cycle 2](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/142_linked_list_cycle_2.py) | Medium     |     | slow & fast should move together in while loop |
-| 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/146_LRU_Cache.py) | Medium     |     | Double LinkedList, hashtable->dict |
-| 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/2_Add_Two_Numbers.py) | Medium     |     | carry, digit = divmod(num,10)|
-| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/206_Reverse_Linked_List.py) | Easy     |     | 2 ways to reverse in-place|
+| ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---------------------------------------------- |
+| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/138_CopyListWithRandomPointer.py) | Medium     | LinkedList,Hashmap |
+| 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/141_linked_list_cycle.py) | Easy|   |
+| 142  | [Linked List Cycle 2](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/142_linked_list_cycle_2.py) | Medium | slow & fast should move together in while loop |
+| 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/146_LRU_Cache.py) | Medium | Double LinkedList, hashtable->dict |
+| 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/2_Add_Two_Numbers.py) | Medium | carry, digit = divmod(num,10)|
+| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/206_Reverse_Linked_List.py) | Easy | 2 ways to reverse in-place|
 
 
 
 ### DFS
 
-| ID   | Title | Solution | Difficulty | Locked |
+| ID   | Title | Solution | Difficulty | Knowledge |
 | ---- | ----- | -------- | ---------- | ------ |
 |  200    |   [Number of Island](https://leetcode.com/problems/number-of-islands/)    |   [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/200_Number_of_Islands.py)       |     Medium       |    dfs func does not return     |
 |    695  |  [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/695_Max_Area_of_Island.py)  | Medium | dfs func returns sum |
@@ -45,15 +45,13 @@
 
 ### BFS
 
-| ID   | Title                                                 | Solution                                                     | Difficulty | Locked          |
+| ID   | Title                                                 | Solution                                                     | Difficulty | Knowledge |
 | ---- | ----------------------------------------------------- | ------------------------------------------------------------ | ---------- | --------------- |
 | 542  | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/542_01Matrix.py) | Medium     | BFS,deque,yield |
 | 994  | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/994_Rotting_Oranges.py) | Easy     | BFS,deque, check edges with all 0's |
 |    207  |  [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/207_Course_Schedule.py)| Medium |dfs,bfs(topological sort)  |
 |    210  |  [Course Schedule 2](https://leetcode.com/problems/course-schedule/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/210_Course_Schedule_2.py)| Medium |bfs(topological sort)  |
-| 1131 |                                                       |                                                              |            |                 |
-|      |                                                       |                                                              |            |                 |
-
+| 1131 |   |                                                              |          
 
 ### String
 
@@ -102,7 +100,7 @@
 
 ### Bitwise
 
-| ID   | Title | Solution | Difficulty | Locked |
+| ID   | Title | Solution | Difficulty | Knowledge |
 | ---- | ----- | -------- | ---------- | ------ |
 |      |       |          |            |        |
 |      |       |          |            |        |
@@ -110,7 +108,7 @@
 
 ### Hash
 
-| ID   | Title | Solution | Difficulty | Locked |
+| ID   | Title | Solution | Difficulty | Knowledge |
 | ---- | ----- | -------- | ---------- | ------ |
 |      |       |          |            |        |
 |      |       |          |            |        |
@@ -147,7 +145,7 @@
 ### Binary Search
 
 | ID   | Title                                                        | Solution                                                     | Difficulty| Knowledge |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | --------- |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | --------- |
 | 74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BinarySearch/74_SearchA2DMatrix.py) | Medium    |           |
 | 240  | [Search a 2D Matrix 2](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BinarySearch/240_SearchA2DMatrix2.py) | Medium     |           |
 
@@ -193,17 +191,17 @@
 
 ### Heap
 
-| ID   | Title | Solution | Difficulty | Locked |
+| ID   | Title | Solution | Difficulty | Knowledge |
 | ---- | ----- | -------- | ---------- | ------ |
 |1383| [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/) |  [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Heap/1383_Maximum_Performance_of_a_Team.py)   |     Hard       |    Priority Queue    |
 
 
 ### ListIntersection
 
-| ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge               |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- | ----------------------- |
-| 1229 | [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/ListIntersection/1229_MeetingScheduler.py) | Medium     | 1    | List Slots Intersection |
-| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/ListIntersection/56_Merge_Intervals.py) | Medium     | 1    | Intervals update trick |
+| ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge               |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----------------------- |
+| 1229 | [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/ListIntersection/1229_MeetingScheduler.py) | Medium | List Slots Intersection |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/ListIntersection/56_Merge_Intervals.py) | Medium | Intervals update trick |
 
 ### Others
 
