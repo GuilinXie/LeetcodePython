@@ -14,6 +14,7 @@
 | 1099   | [Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1099_Two_Sum_Less_Than_K.py) | Medium     | sort -> two points|
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/42_Trapping_Rain_Water.py) | Hard     | Different Methods|
 | 348   | [Design Tic Tac Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/348_Design_Tic_Tac_Toe.py) | Medium     | Store data in a tricky way|
+| 1380   | [Lucky Number in a Matrix](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1380_Lucky_Numbers_in_a_Matrix.py) | Easy     | list(list) fetch row[i], col[j], max(list), list.index(max(list))|
 
 ### LinkedList
 
