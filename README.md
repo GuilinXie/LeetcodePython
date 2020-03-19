@@ -15,6 +15,11 @@
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/42_Trapping_Rain_Water.py) | Hard     | Different Methods|
 | 348   | [Design Tic Tac Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/348_Design_Tic_Tac_Toe.py) | Medium     | Store data in a tricky way|
 | 1380   | [Lucky Number in a Matrix](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1380_Lucky_Numbers_in_a_Matrix.py) | Easy     | list(list) fetch row[i], col[j], max(list), list.index(max(list))|
+| 121   | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/121_Best_Time_to_Buy_and_Sell_Stock.py) | Easy     | different ways|
+| 122   | [Best Time to Buy and Sell Stock 2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/122_Best_Time_to_Buy_and_Sell_Stock_2.py) | Easy | tricky thinking point|
+
+
+
 
 ### LinkedList
 
