@@ -17,6 +17,7 @@
 | 1380   | [Lucky Number in a Matrix](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1380_Lucky_Numbers_in_a_Matrix.py) | Easy     | list(list) fetch row[i], col[j], max(list), list.index(max(list))|
 | 121   | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/121_Best_Time_to_Buy_and_Sell_Stock.py) | Easy     | different ways|
 | 122   | [Best Time to Buy and Sell Stock 2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/122_Best_Time_to_Buy_and_Sell_Stock_2.py) | Easy | tricky thinking point|
+| 238   | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/238_Product_of_Array_Except_Self.py) | Medium | use intermediate list to keep final result to save space|
 
 
 
