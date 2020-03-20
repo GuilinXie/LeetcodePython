@@ -26,7 +26,7 @@ class Solution:
 
         self.buildTrie(words)
 
-        res = set()
+        res = set()   # Use set(), if use List, then there will be duplicate words
         for i in range(m):
             for j in range(n):
                 p = self.root
