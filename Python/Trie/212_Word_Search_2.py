@@ -42,10 +42,9 @@ class Solution:
             m, n = len(board), len(board[0])
             if 0 <= i < m and 0 <= j < n and board[i][j] in p.children:
                 c = board[i][j]
-                record = board[i][j]
                 board[i][j] = "*"
                 neighbors = [(i - 1, j), (i + 1, j), (i, j - 1), (i, j + 1)]
                 for new_i, new_j in neighbors:
                     self.dfs(board, new_i, new_j, p.children[c], res)
-                board[i][j] = record
+                board[i][j] = c
         return 
