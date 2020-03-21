@@ -73,11 +73,10 @@
 
 ### Stack
 
-| ID   | Title | Solution | Difficulty | Locked |
+| ID   | Title | Solution | Difficulty | Knowledge |
 | ---- | ----- | -------- | ---------- | ------ |
-|      |       |          |            |        |
-|      |       |          |            |        |
-|      |       |          |            |        |
+| 739   | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Stack/739_Daily_Temperatures.py) | Medium | last in first out, otherwise store them for next out |
+
 
 ### Hashset
 
