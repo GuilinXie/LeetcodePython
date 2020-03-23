@@ -46,6 +46,7 @@
 |    1192  |  [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1192_CriticalConnectionInANetwork.py)| Hard |  |
 |    1376  |  [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1376_Time_Needed_to_Inform_All_Employees.py)| Medium | weighted tree ,find a path sum|
 |    1376 |  [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1376_path_Time_Needed_to_Inform_All_Employees.py)| Medium |get the path from 1376|
+|    1391 |  [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1391_Check_if_There_is_a_Valid_Path_in_a_Grid.py)| Medium |check i,j edge & whether visited & extra direction conditions, dfs check these before going into next dfs(new_i, new_j)|
 
 
 
