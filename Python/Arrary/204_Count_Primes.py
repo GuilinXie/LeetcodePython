@@ -15,7 +15,8 @@ class Solution:
         # because we can skip these 2 cases in range(2, n)
         isPrime = [True] * n
 
-        for i in range(2, n):
+        end = int(math.sqrt(n)) + 1
+        for i in range(2, end):
             if isPrime[i] == False:
                 continue
             for j in range(i * i, n, i):
