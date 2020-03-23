@@ -70,7 +70,7 @@
 | 819   | [Most_Common_Word](https://leetcode.com/problems/most-common-word/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/819_Most_Common_Word.py) | Easy | string separate by different punctuations, get max from Counter, stopwords|
 | 1360   | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Python](https://leetcode.com/problems/number-of-days-between-two-dates/) | Easy | leapyear, different days in months|
 | 139   | [Word Break](https://leetcode.com/problems/word-break/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/139_Word_Break.py) | Medium | recursive|
-
+| 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/28_Implement_strStr.py) | Easy | Naive or KMP, tricky to understand getNext for KMP|
 
 
 ### Stack
