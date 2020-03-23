@@ -20,6 +20,7 @@
 | 238   | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/238_Product_of_Array_Except_Self.py) | Medium | use intermediate list to keep final result to save space|
 | 1390   | [Four Divisors](https://leetcode.com/problems/four-divisors/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1390_Four_Divisors.py) | Medium | Find divisors for a num, caution for end(i*i=n) cases|
 | 204   | [Count Primes](https://leetcode.com/problems/count-primes/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/204_Count_Primes.py) | Easy | from find divisors to mark, o(n^2) -> o(n^1.5) -> o(n*log*logn), learn from hints|
+| 1362   | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1362_Closest_Divisors.py) | Medium | check divisors from end to 1|
 
 
 ### LinkedList
