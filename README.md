@@ -71,6 +71,8 @@
 | 1360   | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Python](https://leetcode.com/problems/number-of-days-between-two-dates/) | Easy | leapyear, different days in months|
 | 139   | [Word Break](https://leetcode.com/problems/word-break/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/139_Word_Break.py) | Medium | recursive|
 | 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/28_Implement_strStr.py) | Easy | Naive or KMP, tricky to understand getNext for KMP|
+| 1392   | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/1392_Longest_Happy_Prefix.py) | Hard | Naive, use KMP getNext idea to solve|
+
 
 
 ### Stack
