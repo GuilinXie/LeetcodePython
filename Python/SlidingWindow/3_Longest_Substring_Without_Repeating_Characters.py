@@ -17,21 +17,6 @@ class Solution:
         return res
 
     # Method 2 - Use Hashtable to further optimize time complexity
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        n = len(s)
-        res = 0
-        dic = dict()
-        i = -1
-        for j in range(0, n):
-            ch = s[j]
-            if ch in dic and dic[ch] > i:
-                i = dic[ch]
-            if j - i > res:
-                res = j - i
-            dic[ch] = j
-        return res
-
-# Method 2 - more optimization implementation for methoed 2, using enumerate
 class Solution:
     def lengthOfLongestSubstring(self, s):
         """
@@ -39,12 +24,11 @@ class Solution:
         :rtype: int
         """        
         start = -1
-        dic = dict()
         ans = 0
+        seen = dict()
         for i, c in enumerate(s):
-            if c in dic and dic[c] > start:
-                start = dic[c]          
-            if i - start > ans:  
-                ans = i - start                 
-            dic[c] = i
+            if c in seen and seen[c] > start:
+                start = seen[c]
+            ans = max(ans, i - start)
+            seen[c] = i
         return ans
