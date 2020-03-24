@@ -15,6 +15,23 @@ class Solution:
                 seen.remove(s[i])
                 i += 1
         return res
+    
+    # Method 1 - for record
+class Solution: 
+    def lengthOfLongestSubstring(self, s):
+        ans = 0
+        i= 0
+        seen = set()
+        for j, c in enumerate(s):
+                   
+            while c in seen:         # first step, check starting pos, and to see if need to move forward
+                seen.remove(s[i])
+                i += 1
+                
+            ans = max(ans, j - i + 1)  # second step, update ans
+            seen.add(c)       
+        return ans
+    
 
     # Method 2 - Use Hashtable to further optimize time complexity
 class Solution:
