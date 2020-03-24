@@ -31,15 +31,20 @@ class Solution:
             dic[ch] = j
         return res
 
-    # Method 2
-    # def lengthOfLongestSubstring(self, s: str) -> int:
-    #     res = 0
-    #     start = 0
-    #     dic = dict()
-    #     for i in range(0, len(s)):
-    #         if s[i] in dic and start <= dic[s[i]]:
-    #             start = dic[s[i]] + 1
-    #         else:
-    #             res = max(res, i - start + 1)
-    #         dic[s[i]] = i
-    #     return res
+# Method 2 - more optimization implementation for methoed 2, using enumerate
+class Solution:
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """        
+        start = -1
+        dic = dict()
+        ans = 0
+        for i, c in enumerate(s):
+            if c in dic and dic[c] > start:
+                start = dic[c]          
+            if i - start > ans:  
+                ans = i - start                 
+            dic[c] = i
+        return ans
