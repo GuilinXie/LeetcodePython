@@ -21,6 +21,7 @@
 | 1390   | [Four Divisors](https://leetcode.com/problems/four-divisors/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1390_Four_Divisors.py) | Medium | Find divisors for a num, caution for end(i*i=n) cases|
 | 204   | [Count Primes](https://leetcode.com/problems/count-primes/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/204_Count_Primes.py) | Easy | from find divisors to mark, o(n^2) -> o(n^1.5) -> o(n*log*logn), learn from hints|
 | 1362   | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1362_Closest_Divisors.py) | Medium | check divisors from end to 1|
+|560 | [Subarray_Sum_Equals_K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/560_Subarray_Sum_Equals_K.py) | Medium | bf:TLE, cache subSum similar to twoSum|
 
 
 ### LinkedList
