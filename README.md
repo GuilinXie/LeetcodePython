@@ -206,6 +206,7 @@
 | ID   | Title | Solution | Difficulty | Knowledge |
 | ---- | ----- | -------- | ---------- | ------ |
 |1383| [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/) |  [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Heap/1383_Maximum_Performance_of_a_Team.py)   |     Hard       |    Priority Queue    |
+|1167| [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) |  [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Heap/1167_Minimum_Cost_to_Connect_Sticks.py)   |     Medium       |     |
 
 
 ### ListIntersection
