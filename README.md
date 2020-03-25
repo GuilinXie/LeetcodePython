@@ -139,7 +139,7 @@
 |    106 |  [Construct Binary Tree from Inorder and Postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.py)| Medium | recursive |
 |    112 |  [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/112_Path_Sum.py)| Easy | dfs recursive, dfs iterate stack, bfs iterate queue, stack(list.pop()), queue(list.pop(0)) |
 |    113 |  [Path Sum 2](https://leetcode.com/problems/path-sum-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/113_Path_Sum_2.py)| Medium | Store multiple sum paths |
-
+|    297 |  [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/297_Serialize_and_Deserialize_Binary_Tree.py)| Hard | preOrder serialize, then need to use preOrder deserialize |
 
 
 
