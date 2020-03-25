@@ -36,17 +36,17 @@ class Codec:
         if len(data) <= 0:
             return None
         data = data.split()
-        root = deserializeDfs(data)  # pass data as list address to the dfs, then data.pop() will always keep the change
+        root = self.deserializeDfs(data)  # pass data as list address to the dfs, then data.pop() will always keep the change
         return root
 
-    def deserializeDfs(data):
+    def deserializeDfs(self, data):
         if data[0] == "x":
             data.pop(0)
             return None
         root = TreeNode(data[0])
         data.pop(0)
-        root.left = deserializeDfs(data)
-        root.right = deserializeDfs(data)
+        root.left = self.deserializeDfs(data)
+        root.right = self.deserializeDfs(data)
         return root
 
 
