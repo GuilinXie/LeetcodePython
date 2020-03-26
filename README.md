@@ -59,8 +59,8 @@
 | 994  | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/994_Rotting_Oranges.py) | Easy     | BFS,deque, check edges with all 0's |
 |    207  |  [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/207_Course_Schedule.py)| Medium |dfs,bfs(topological sort)  |
 |    210  |  [Course Schedule 2](https://leetcode.com/problems/course-schedule/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/210_Course_Schedule_2.py)| Medium |bfs(topological sort)  |
-|    140  |  [Word Break2](https://leetcode.com/problems/word-break-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/140_Word_Break_2.py)| Hard |bfs(store ending index for the word)  |
-| 1131 |   |                                                              |          
+|    140  |  [Word Break2](https://leetcode.com/problems/word-break-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/140_Word_Break_2.py)| Hard |bfs(store ending index for the word)  ||  |    127  |  [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/127_Word_Ladder.py)| Medium |bfs, construct_dict for neighbors | 
+|    126  |  [Word Ladder 2](https://leetcode.com/problems/word-ladder-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/126_Word_Ladder_2.py)| Hard |bfs, store all shortest path, need to store current path_length, and the first time shortest_path | 
 
 ### String
 
