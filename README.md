@@ -213,6 +213,7 @@
 |1167| [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) |  [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Heap/1167_Minimum_Cost_to_Connect_Sticks.py)   |     Medium  |     |
 |1102| [Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/) |  [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Heap/1102_Path_With_Maximum_Minimum_Value.py) |  Medium  | Max Heap, choose max() to store, priority queue |
 |692| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) |  [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Heap/692_Top_K_Frequent_Words.py) |  Medium  | statistics count, sort to get topK, or use heap to get topK|
+|621| [Task Scheduler](https://leetcode.com/problems/task-scheduler/) |  [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Heap/621_Task_Scheduler.py) |  Medium  | max heap - priority queue, top=heappop(hq) first, then modify the top, then heappush it back again. If want to use heappop(), have to use heapify(list) && heappush(new_num), otherwise heapop() will just work as popleft() || pop(0), and won't do its min_heap or max_heap job|
 
 
 ### ListIntersection
