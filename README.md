@@ -49,7 +49,7 @@
 |    1376 |  [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1376_path_Time_Needed_to_Inform_All_Employees.py)| Medium |get the path from 1376|
 |    1391 |  [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1391_Check_if_There_is_a_Valid_Path_in_a_Grid.py)| Medium |check i,j edge & whether visited & extra direction conditions, dfs check these before going into next dfs(new_i, new_j)|
 |    93 |  [Restore IP Address](https://leetcode.com/problems/restore-ip-addresses/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/93_Restore_IP_Address.py)| Medium |dfs, backtrack, check dfs conditions before going into the next dfs|
-
+| 139   | [Word Break](https://leetcode.com/problems/word-break/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/139_Word_Break.py) | Medium | recursive|
 
 ### BFS
 
@@ -72,7 +72,6 @@
 | 13   | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/13_RomanToInteger.py) | Easy       |           |
 | 819   | [Most_Common_Word](https://leetcode.com/problems/most-common-word/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/819_Most_Common_Word.py) | Easy | string separate by different punctuations, get max from Counter, stopwords|
 | 1360   | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/) | [Python](https://leetcode.com/problems/number-of-days-between-two-dates/) | Easy | leapyear, different days in months|
-| 139   | [Word Break](https://leetcode.com/problems/word-break/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/139_Word_Break.py) | Medium | recursive|
 | 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/28_Implement_strStr.py) | Easy | Naive or KMP, tricky to understand getNext for KMP|
 | 1392   | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/1392_Longest_Happy_Prefix.py) | Hard | Naive, use KMP getNext idea to solve|
 | 125   | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/125_Valid_Palindrome.py) | Easy | str.isalnum() [a-zA-Z0-9] return True|
