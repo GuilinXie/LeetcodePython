@@ -23,7 +23,7 @@ class Solution:
     
     
     # Second time - AC - maybe more clear
-    class Solution:
+class Solution:
     def numOfMinutes(self, n, headID, manager, informTime):
         if len(manager) <= 0:
             return 0
