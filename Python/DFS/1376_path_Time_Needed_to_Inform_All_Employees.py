@@ -1,36 +1,35 @@
 class Solution:
     def numOfMinutes(self, n, headID, manager, informTime):
-        if len(manager) <= 0 or len(informTime) <= 0:
-            return
+        if len(manager) <= 0:
+            return 0
+        if len(manager) != len(informTime):
+            return -1
         graph = dict()
         for i in range(-1, n):
             graph[i] = []
-        for i in range(0, len(manager)):
-            graph[manager[i]].append(i)
-        path = []
-        res = self.dfs(graph, informTime, headID, path)
-        for node in path:
-            print( node )
-            print(" ")
-        return res, path
+        for i, m in enumerate(manager):
+            graph[m].append(i)
 
-    # Tree with weights
-    def dfs(self, graph, informTime, node, path):
-        if graph[node] == []:
-            path.append(node)
-            return 0
-        res = -1
-        node_list = []
-        for child in graph[node]:
-            tmp_list = []
-            tmp_res = self.dfs(graph, informTime, child, tmp_list)
-            if tmp_res > res:
-                res = tmp_res
-                node_list = tmp_list
-        path.append(node)
-      #  path += [n for n in node_list]
-        path += node_list
-        return res + informTime[node]
+        ans, path = self.dfs(graph, informTime, headID)
+        print(path)
+        return ans
+
+    # dfs idea, iterate all neighbors, find the maxPath & maxCand, then add cur to the final result
+    def dfs(self, graph, informTime, cur):
+
+        maxCand = 0
+        maxPath = []
+
+        for nei in graph[cur]:
+            cand, candpath = self.dfs(graph, informTime, nei)
+            if cand >= maxCand:
+                maxPath = candpath
+                maxCand = cand
+
+        maxPath.insert(0,cur)
+        ans = informTime[cur]+maxCand
+
+        return ans, maxPath
 
 
 if __name__ == "__main__":
