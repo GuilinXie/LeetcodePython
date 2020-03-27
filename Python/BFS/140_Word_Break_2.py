@@ -1,3 +1,33 @@
+# DFS - AC with cache, TLE without cache, slower than BFS, but easy to explain and understand
+class Solution:
+     def wordBreak(self, s, wordDict):
+        cache = dict()
+        return self.dfs(s, wordDict, cache)
+        
+     def dfs(self, s, wordDict, cache):
+        
+        if s in cache:
+            return cache[s]
+        
+        res = []
+        
+        if not s:
+            res.append("")
+            return res
+        
+        for end in range(1, len(s) + 1):
+            if s[0:end] in wordDict:
+                tmp = self.dfs(s[end:], wordDict, cache)
+                for word in tmp:
+                    space = "" if word == "" else " "
+                    res.append(s[0:end] + space + word)
+                    
+        cache[s] = res
+        return res
+
+
+
+# BFS
 class Solution:
      def wordBreak(self, s, wordDict):
             q = collections.deque()
