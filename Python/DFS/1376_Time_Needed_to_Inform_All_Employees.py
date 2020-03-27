@@ -39,9 +39,10 @@ class Solution:
         return ans
     
     def dfs(self, graph, informTime, cur):
-        ans = informTime[cur]
+        
         maxCand = 0
         for nei in graph[cur]:
             cand = self.dfs(graph, informTime, nei)
             maxCand = max(maxCand, cand)
-        return ans + maxCand
+        ans = informTime[cur] + maxCand
+        return ans
