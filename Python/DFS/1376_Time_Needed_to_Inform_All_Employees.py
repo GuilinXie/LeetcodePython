@@ -20,3 +20,28 @@ class Solution:
             if tmp_res > res:
                 res = tmp_res
         return res + informTime[node]
+    
+    
+    # Second time - AC - maybe more clear
+    class Solution:
+    def numOfMinutes(self, n, headID, manager, informTime):
+        if len(manager) <= 0:
+            return 0
+        if len(manager) != len(informTime):
+            return -1
+        graph = dict()
+        for i in range(-1, n):
+            graph[i] = []
+        for i, m in enumerate(manager):
+            graph[m].append(i)
+            
+        ans = self.dfs(graph, informTime, headID)
+        return ans
+    
+    def dfs(self, graph, informTime, cur):
+        ans = informTime[cur]
+        maxCand = 0
+        for nei in graph[cur]:
+            cand = self.dfs(graph, informTime, nei)
+            maxCand = max(maxCand, cand)
+        return ans + maxCand
