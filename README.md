@@ -23,6 +23,7 @@
 | 1362   | [Closest Divisors](https://leetcode.com/problems/closest-divisors/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1362_Closest_Divisors.py) | Medium | check divisors from end to 1|
 |560 | [Subarray_Sum_Equals_K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/560_Subarray_Sum_Equals_K.py) | Medium | bf:TLE, cache subSum similar to twoSum|
 |36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/36_Valid_Sudoku.py) | Medium | check block starti * 3 & startj * 3|
+|37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/37_Sudoku_Solver.py) | Hard | isValid, then place, then backtrack, note that solve needs to return True at the end |
 
 
 ### LinkedList
