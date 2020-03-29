@@ -28,7 +28,6 @@ class Solution(object):
             word, dist, tmp = dq.popleft()
             seen.add(word)
             if word == endWord and dist <= shortest:
-                #tmp.append(word)
                 ans.append(tmp)
                 shortest = dist
                 continue
