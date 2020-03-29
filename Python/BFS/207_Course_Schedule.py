@@ -34,32 +34,36 @@ class Solution:
         return True
 
 
-# Method 2 - BFS - topological sort
+# Method 2 - BFS - AC - beat 70%- topological sort
 class Solution:
     def canFinish(self, n, edges):
-        # construct graph
-        graph = {i: set() for i in range(n)}
-        in_degrees = {i: 0 for i in range(n)}
-
-        for edge in edges:
-            graph[edge[1]].add(edge[0])
-            in_degrees[edge[0]] += 1
-
-        # init var
-        q = collections.deque()
-        visited = set()
-
-        # find nodes whose in degree == 0
-        for index, in_degree in in_degrees.items():
-            if in_degree == 0:
-                q.append(index)
-
-        # loop all nodes whose in degree == 0
-        while q:
-            index = q.popleft()
-            visited.add(index)
-            for g in graph[index]:
-                in_degrees[g] -= 1
-                if in_degrees[g] == 0:
-                    q.append(g)
-        return len(visited) == n
+        if len(edges) <= 0:
+            return True
+        
+        graph = {}
+        indegree = {}
+        for i in range(n):
+            graph[i] = []
+            indegree[i] = 0
+        for child, parent in edges:
+            graph[parent].append(child)
+            indegree[child] += 1
+        
+        # put all courses without pres in the queue first
+        initial = [v for v in indegree if indegree[v] == 0]
+        total = len(initial)
+        dq = collections.deque(initial)
+        seen = set(initial)
+        
+        while dq:
+            node = dq.popleft()
+            for child in graph[node]:
+                indegree[child] -= 1
+                if indegree[child] == 0 and child not in seen:
+                    dq.append(child)
+                    total += 1
+                    # after visiting the child, then add it to seen
+                    seen.add(child)
+        if total == n:
+            return True
+        return False
