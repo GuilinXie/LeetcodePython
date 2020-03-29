@@ -30,6 +30,7 @@ class Solution:
 
 
 # original
+# actually, no need for level_num parameter, as using popleft() to control the pop order
 class Solution:
     def orangesRotting(self, A):
         if len(A) <= 0 or len(A[0]) <= 0:
