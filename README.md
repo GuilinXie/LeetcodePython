@@ -64,7 +64,7 @@
 |    210  |  [Course Schedule 2](https://leetcode.com/problems/course-schedule/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/210_Course_Schedule_2.py)| Medium |bfs(topological sort)  |
 |    127  |  [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/127_Word_Ladder.py)| Medium | bfs, construct_dict for neighbors | 
 |    126  |  [Word Ladder 2](https://leetcode.com/problems/word-ladder-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/126_Word_Ladder_2.py)| Hard |bfs, store all shortest path, need to store current path_length, and the first time shortest_path | 
-|    1311  |  [Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/1311_Get_Watched_Videos_by_Your_Friends.py)|  |
+|    1311  |  [Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/1311_Get_Watched_Videos_by_Your_Friends.py)| Medium ||
 
 
 ### String
