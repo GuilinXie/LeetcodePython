@@ -5,8 +5,7 @@ class Solution(object):
     def findLadders(self, beginWord, endWord, wordList):
         if len(wordList) <= 0:
             return
-        
-        
+            
         def buildDict(wordList):
             wordDict = {}
             for word in wordList:
@@ -43,11 +42,8 @@ class Solution(object):
                         if nei not in seen:
                             ## can not update seen here, as it requires multiple paths
                             # seen.add(nei)
-                            dq.append((nei, dist + 1, tmp + [nei]))
-                            
+                            dq.append((nei, dist + 1, tmp + [nei]))                            
         return ans
-
-
 
 # original
 class Solution(object):
