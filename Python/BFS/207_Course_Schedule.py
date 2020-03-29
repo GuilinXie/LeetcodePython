@@ -35,16 +35,22 @@ class Solution:
 
 
 # Method 2 - BFS - AC - beat 70%- topological sort
+# Method 2 - BFS - topological sort
 class Solution:
     def canFinish(self, n, edges):
         if len(edges) <= 0:
             return True
         
-        graph = {}
-        indegree = {}
-        for i in range(n):
-            graph[i] = []
-            indegree[i] = 0
+        # graph = {}
+        # indegree = {}
+        # for i in range(n):
+        #     graph[i] = []
+        #     indegree[i] = 0
+
+        # construct graph
+        graph = {i: [] for i in range(n)}
+        indegree = {i: 0 for i in range(n)}
+        
         for child, parent in edges:
             graph[parent].append(child)
             indegree[child] += 1
@@ -53,17 +59,14 @@ class Solution:
         initial = [v for v in indegree if indegree[v] == 0]
         total = len(initial)
         dq = collections.deque(initial)
-        seen = set(initial)
         
         while dq:
             node = dq.popleft()
             for child in graph[node]:
                 indegree[child] -= 1
-                if indegree[child] == 0 and child not in seen:
+                if indegree[child] == 0:
                     dq.append(child)
                     total += 1
-                    # after visiting the child, then add it to seen
-                    seen.add(child)
         if total == n:
             return True
         return False
