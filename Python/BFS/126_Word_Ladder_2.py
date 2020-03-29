@@ -1,3 +1,55 @@
+
+# 2nd version, beat 18%, 
+# pay attention that should update seen at the beginning of while loop, not at the place for every nei
+class Solution(object):
+    def findLadders(self, beginWord, endWord, wordList):
+        if len(wordList) <= 0:
+            return
+        
+        
+        def buildDict(wordList):
+            wordDict = {}
+            for word in wordList:
+                for i in range(len(word)):
+                    key = word[:i] + "_" + word[i+1:]
+                    if key not in wordDict:
+                        wordDict[key] = []
+                    wordDict[key].append(word)
+            return wordDict
+        
+        wordList.append(beginWord)
+        wordDict = buildDict(wordList)
+        
+        dq = collections.deque([(beginWord, 1, [beginWord])])
+        ans = []
+        shortest = sys.maxsize
+        seen = set()
+        
+        while dq:
+            word, dist, tmp = dq.popleft()
+            seen.add(word)
+            if word == endWord and dist <= shortest:
+                #tmp.append(word)
+                ans.append(tmp)
+                shortest = dist
+                continue
+            for i in range(len(word)):
+                key = word[:i] + "_" + word[i+1:]
+                if key not in wordDict:
+                    continue
+                else:
+                    neighbors = wordDict[key]
+                    for nei in neighbors:
+                        if nei not in seen:
+                            ## can not update seen here, as it requires multiple paths
+                            # seen.add(nei)
+                            dq.append((nei, dist + 1, tmp + [nei]))
+                            
+        return ans
+
+
+
+# original
 class Solution(object):
     def findLadders(self, beginWord, endWord, wordList):
 
