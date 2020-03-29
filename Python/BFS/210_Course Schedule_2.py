@@ -1,31 +1,30 @@
 class Solution:
-    def findOrder(self, n, edges):
+    def findOrder(self, n: int, edges: List[List[int]]) -> List[int]:
+        
         if n <= 0:
             return []
-
-        graph = dict()
-        in_degree = dict()
-        for i in range(n):
-            graph[i] = []
-            in_degree[i] = 0
-        # If there is no prerequisite requirements, then return initial graph directly
+        # construct graph
+        graph = {i:[] for i in range(n)}
+        indegree = {i:0 for i in range(n)}
+            
+        for child, parent in edges:
+            graph[parent].append(child)
+            indegree[child] += 1
+            
+        ans = [v for v in indegree if indegree[v] == 0]
+        dq = collections.deque(ans)
+        
         if len(edges) <= 0:
-            return graph
-
-        for u, v in edges:
-            graph[v].append(u)
-            in_degree[u] += 1
-        q = collections.deque([u for u in in_degree if in_degree[u] == 0])
-
-        res = []
-        while q:
-            node = q.popleft()
-            res.append(node)
-            neighbors = graph[node]
-            for nei in neighbors:
-                in_degree[nei] -= 1
-                if in_degree[nei] == 0:
-                    q.append(nei)
-        return res if len(res) == n else []
-
-
+            return ans
+        
+        while dq:
+            node = dq.popleft()
+            for child in graph[node]:
+                indegree[child] -= 1
+                if indegree[child] == 0:
+                    dq.append(child)
+                    ans.append(child)
+        if len(ans) == n:
+            return ans
+        else:
+            return []
