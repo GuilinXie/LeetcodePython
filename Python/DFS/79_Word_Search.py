@@ -1,3 +1,4 @@
+# Time complexity O(N * 4^L), where N = m * n of the grid, 4^L where L is the length of the word.
 class Solution:
     # Method: DFS + cache, can fail for time complexity if no cache
     def exist(self, grid: List[List[str]], word: str) -> bool:
