@@ -7,9 +7,7 @@ class TrieNode():
         self.data = None
         self.rank = 0 
 
-
 class AutocompleteSystem:
-
     def __init__(self, sentences: List[str], times: List[int]):
         self.root = TrieNode()
         self.keyword = ""
