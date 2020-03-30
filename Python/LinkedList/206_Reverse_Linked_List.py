@@ -4,6 +4,21 @@
 # #         self.val = x
 # #         self.next = None
 
+# Method 2 - better solution - remain pre, cur, n, totally 3 pointers
+# pre = cur,  not pre = cur.next
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        if head == None or head.next == None:
+            return head
+        pre = None
+        cur = head
+        while cur:
+            n = cur.next
+            cur.next = pre
+            pre = cur
+            cur = n
+        return pre
+
 # Method 1 - I first use this one, but need head.next = None to avoid cycle
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
@@ -20,17 +35,3 @@ class Solution:
         head.next = None
         return dummy.next
 
-# Method 2 - remain pre, cur, n, totally 3 pointers
-# pre = cur,  not pre = cur.next
-class Solution:
-    def reverseList(self, head: ListNode) -> ListNode:
-        if head == None or head.next == None:
-            return head
-        pre = None
-        cur = head
-        while cur:
-            n = cur.next
-            cur.next = pre
-            pre = cur
-            cur = n
-        return pre
