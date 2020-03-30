@@ -5,6 +5,23 @@
 #         self.left = None
 #         self.right = None
 
+ # Method 2: O(n), as we traverse each node once
+    def isValidBST(self, root: TreeNode) -> bool:
+        lower = -sys.maxsize
+        upper = sys.maxsize
+        return self.check(root, lower, upper)
+
+    def check(self, node, lower, upper):
+        if node == None:
+            return True
+        val = node.val
+        if val <= lower or val >= upper:
+            return False
+        left = self.check(node.left, lower, val)
+        right = self.check(node.right, val, upper)
+        return left and right
+
+# original
 class Solution:
     # Method 1: O(n^2), as we need to find the left_max and right_min for each node
     #     def isValidBST(self, root: TreeNode) -> bool:
@@ -31,18 +48,4 @@ class Solution:
 
     #         return self.isValidBST(root.left) and self.isValidBST(root.right)
 
-    # Method 2: O(n), as we traverse each node once
-    def isValidBST(self, root: TreeNode) -> bool:
-        lower = -sys.maxsize
-        upper = sys.maxsize
-        return self.check(root, lower, upper)
-
-    def check(self, node, lower, upper):
-        if node == None:
-            return True
-        val = node.val
-        if val <= lower or val >= upper:
-            return False
-        left = self.check(node.left, lower, val)
-        right = self.check(node.right, val, upper)
-        return left and right
+   
