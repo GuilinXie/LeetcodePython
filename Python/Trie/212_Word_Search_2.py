@@ -1,9 +1,10 @@
+# Time complexity: O(N * (4⋅3^(L−1)))
+# where N is the number of cells in the board and L is the maximum length of words.
 class TrieNode():
     def __init__(self):
         self.children = dict()
         self.data = None
         self.isEnd = False
-
 
 class Solution:
     def __init__(self):
