@@ -1,13 +1,12 @@
 class Solution:
-
-    # Method 1: Recursive, but I did not find how to cache this
+    # Method 1: Recursive, TLE,  but I did not find how to cache this
     # So time complexity is too high
     # def __init__(self):
     #     self.cache = dict()
 
     def findLength(self, A, B):
         return self.findLengthHelp(A, B, 0)
-
+   
     def findLengthHelp(self, A, B, res):
         #         key = str(len(A)) + "_" + str(len(B))
         if len(A) <= 0 or len(B) <= 0:
