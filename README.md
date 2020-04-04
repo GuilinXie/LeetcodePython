@@ -24,7 +24,7 @@
 |560 | [Subarray_Sum_Equals_K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/560_Subarray_Sum_Equals_K.py) | Medium | bf:TLE, cache subSum similar to twoSum|
 |36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/36_Valid_Sudoku.py) | Medium | check block starti * 3 & startj * 3|
 |37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/37_Sudoku_Solver.py) | Hard | isValid, then place, then backtrack, note that solve needs to return True at the end |
-
+|283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/283_Move_Zeros.py) | Easy | two pointers |
 
 ### LinkedList
 | ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
