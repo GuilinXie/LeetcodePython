@@ -119,6 +119,7 @@
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/3_Longest_Substring_Without_Repeating_Characters.py)| Medium|    |
 | 978 | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/978_Longest_Turbulent_Subarray.py)| Medium|    |
 | 1004 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/1004_Max_Consecutive_Ones_3.py)| Medium|    |
+| 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/525_Contiguous_Array.py)| Medium| similar to [Longest sub-array having sum k](https://www.geeksforgeeks.org/longest-sub-array-sum-k/)|
 
 
 ### Stack
