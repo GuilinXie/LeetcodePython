@@ -82,7 +82,6 @@
 |    104  |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/104_Maximum_Depth_of_Binary_Tree.py)| Easy |  |
 |    111  |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/111_Minimum_Depth_of_Binary_Tree.py)| Easy | root->leaf,need to care about leaf condition |
 |    110  |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/110_Balanced_Binary_Tree.py)| Easy | check if balanced|
-|    108  |  [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/108_Convert_Sorted_Array_to_Binary_Search_Tree.py)| Easy | |
 |    1328 |  [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/1382_Balance_a_Binary_Search_Tree.py)| Medium | inorder traversal, convert to BST 108 |
 |    98 |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/98_Validate_Binary_Search_Tree.py)| Medium | keep boundary, or find left_max && right_min |
 |    236 |  [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/236_Lowest_Common_Ancestor_of_a_Binary_Tree.py)| Medium | path, multiple path |
@@ -91,7 +90,9 @@
 |    112 |  [Path Sum](https://leetcode.com/problems/path-sum/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/112_Path_Sum.py)| Easy | dfs recursive, dfs iterate stack, bfs iterate queue, stack(list.pop()), queue(list.pop(0)) |
 |    113 |  [Path Sum 2](https://leetcode.com/problems/path-sum-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/113_Path_Sum_2.py)| Medium | Store multiple sum paths |
 |    297 |  [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/297_Serialize_and_Deserialize_Binary_Tree.py)| Hard | preOrder serialize, then need to use preOrder deserialize |
-
+|    108  |  [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/108_Convert_Sorted_Array_to_Binary_Search_Tree.py)| Easy | |
+|    1008  |  [Convert Preorder Array to Binary Search Tree](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/1008_Construct_BST_from_Preorder_Traversal.py
+)| Easy | |
 
 ### Trie
 | ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
