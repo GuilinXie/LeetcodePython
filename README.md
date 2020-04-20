@@ -91,8 +91,7 @@
 |    113 |  [Path Sum 2](https://leetcode.com/problems/path-sum-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/113_Path_Sum_2.py)| Medium | Store multiple sum paths |
 |    297 |  [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/297_Serialize_and_Deserialize_Binary_Tree.py)| Hard | preOrder serialize, then need to use preOrder deserialize |
 |    108  |  [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/108_Convert_Sorted_Array_to_Binary_Search_Tree.py)| Easy | |
-|    1008  |  [Convert Preorder Array to Binary Search Tree](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/1008_Construct_BST_from_Preorder_Traversal.py
-)| Easy | |
+|    1008  |  [Convert Preorder Array to Binary Search Tree](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Tree/1008_Construct_BST_from_Preorder_Traversal.py)| Medium | |
 
 ### Trie
 | ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
