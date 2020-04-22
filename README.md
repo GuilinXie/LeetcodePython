@@ -120,7 +120,7 @@
 | 978 | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/978_Longest_Turbulent_Subarray.py)| Medium|    |
 | 1004 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/1004_Max_Consecutive_Ones_3.py)| Medium|    |
 | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/525_Contiguous_Array.py)| Medium| similar to [Longest sub-array having sum k](https://www.geeksforgeeks.org/longest-sub-array-sum-k/)|
-| 560 | [Subarray Sum Equals K (count how many such subarrays)](https://leetcode.com/problems/subarray-sum-equals-k/ | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/560_Subarray_Sum_Equals_K_countHowManySuchSubarray.py)| Medium| Also similar to [Longest sub-array having sum k](https://www.geeksforgeeks.org/longest-sub-array-sum-k/)|
+| 560 | [Subarray Sum Equals K_CountHowManySuchSubarrays](https://leetcode.com/problems/subarray-sum-equals-k/ | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/SlidingWindow/560_Subarray_Sum_Equals_K_countHowManySuchSubarray.py)| Medium| Also similar to [Longest sub-array having sum k](https://www.geeksforgeeks.org/longest-sub-array-sum-k/)|
 
 ### Stack
 
