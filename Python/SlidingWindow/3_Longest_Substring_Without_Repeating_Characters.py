@@ -35,17 +35,17 @@ class Solution:
 
     # Method 2 - Use Hashtable to further optimize time complexity
 class Solution:
-    def lengthOfLongestSubstring(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """        
-        start = -1
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        if len(s) <= 0 :
+            return 0
+        
+        seen = {}
         ans = 0
-        seen = dict()
-        for i, c in enumerate(s):
+        start = -1
+        for i , c in enumerate(s):
             if c in seen and seen[c] > start:
                 start = seen[c]
-            ans = max(ans, i - start)
-            seen[c] = i
+            else:
+                ans = max(ans, i - start)
+            seen[c] = i         
         return ans
