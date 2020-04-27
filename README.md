@@ -27,8 +27,7 @@
 |283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/283_Move_Zeros.py) | Easy | two pointers |
 |1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/contest/weekly-contest-186/problems/maximum-points-you-can-obtain-from-cards/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1423_Maximum_Points_You_Can_Obtain_from_Cards.py) | Medium | left obtaining + right obtaining, if want to obtain in the middle of left, then must obtail all ones left than that |
 |498 | [Diagonal_Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/498_Diagonal_Traverse.py) | Medium | Diagnal, row+col is the same |
-|1424 | [Diagonal Traverse 2](https://leetcode.com/contest/weekly-contest-186/problems/diagonal-traverse-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1424_Diagonal_Traverse_2.py
-) | Medium | similar to 498 |
+|1424 | [Diagonal Traverse 2](https://leetcode.com/contest/weekly-contest-186/problems/diagonal-traverse-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1424_Diagonal_Traverse_2.py) | Medium | similar to 498 |
 
 
 
