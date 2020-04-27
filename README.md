@@ -25,6 +25,8 @@
 |36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/36_Valid_Sudoku.py) | Medium | check block starti * 3 & startj * 3|
 |37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/37_Sudoku_Solver.py) | Hard | isValid, then place, then backtrack, note that solve needs to return True at the end |
 |283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/283_Move_Zeros.py) | Easy | two pointers |
+|1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/contest/weekly-contest-186/problems/maximum-points-you-can-obtain-from-cards/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1423_Maximum_Points_You_Can_Obtain_from_Cards.py) | Medium | left obtaining + right obtaining, if want to obtain in the middle of left, then must obtail all ones left than that |
+
 
 ### LinkedList
 | ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
