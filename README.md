@@ -221,6 +221,12 @@
 |      |       |          |            |        |
 |      |       |          |            |        |
 
+### Shell
+| ID   | Title | Solution | Difficulty | knowledge |
+| ---- | ----- | -------- | ---------- | ------ |
+| 193   | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Shell/193_Valid_Phone_Numbers.py) | Easy | awk, regex  |
+
+
 
 ### Others
 | ID   | Title                                                        | Solution                                                     | Difficulty | C    | Knowledge                                                  |
