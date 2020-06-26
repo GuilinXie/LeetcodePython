@@ -140,7 +140,7 @@
 | 1192 | [Critical Connection in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/1192_CriticalConnectionInANetwork.py) | Hard       | Bridge, Articulation Point (Tarjan Algorithm - DFS) |
 
 
-### Dynamic Programming
+### Dynamic Programming, dp
 | ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | -------- |
 | 5    | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/5_LongestPalindromicSubstring.py) | Medium     | dp|
@@ -149,6 +149,7 @@
 | 1143   | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/1143_Longest_Common_Subsequence.py) | Medium | Recursive, cache, dp, relative order, similar to Longest Common Substring  |
 | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/53_Maximum_Subarray.py) | Easy | Define problems in d p idea  |
 |    | [0 1 backpack]() | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/0_1_backpacking.py) |  | recursive, recursive+cache, 01 backpack  |
+| 416   | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/416_Partition_Equal_Subset_Sum.py) | Medium | several number sums to a target, bool return. 0-1 bagProblem, pick or not pick, recursive+cache & dp  |
 
 
 ### Heap
