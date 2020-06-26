@@ -31,4 +31,30 @@ def bagProblem(values, weights, i, j, cache):
     cache[i][j] = maxValue
     return maxValue
 
+#dp
+def bagProblem(weights, values, capacity):
+    R = len(weights) + 1
+    C = capacity + 1
+    
+    dp = [[0] * C for _ in range(R)]
+    
+    for i in range(1, R):
+        for w in range(1, C):
+            if w >= weights[i - 1]:
+                value1 = dp[i - 1][w - weights[i - 1]] + values[i]  # take the i-th item
+                values2 = dp[i - 1][w]       # not take the i-th item
+                dp[i][w] = max(value1, value2)
+            else:
+                dp[i][w] = dp[i - 1][w]
+    return dp[R - 1][C - 1]
+                
+
+
+
+
+
+
+
+
+
 
