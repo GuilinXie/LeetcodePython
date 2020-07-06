@@ -55,6 +55,7 @@
 |    93 |  [Restore IP Address](https://leetcode.com/problems/restore-ip-addresses/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/93_Restore_IP_Address.py)| Medium |dfs, backtrack, check dfs conditions before going into the next dfs|
 | 139   | [Word Break](https://leetcode.com/problems/word-break/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/139_Word_Break.py) | Medium | dfs+recursive|
 |    140  |  [Word Break2](https://leetcode.com/problems/word-break-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/140_Word_Break_2.py)| Hard |dfs+recursive+cache(local variable), bfs(store ending index for the word)  | 
+|    46  |  [Permutations](https://leetcode.com/problems/permutations/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/46_Permutations.py)| Medium |dfs  + backtracking, from itertools import permutations, O(n * n!) time | 
 
 
 ### BFS
