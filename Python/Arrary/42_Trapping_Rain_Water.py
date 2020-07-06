@@ -16,31 +16,29 @@ class Solution:
         return res
 
     # Method 2 - Dynamic Programming, store left_max[i] and right_max[i]
-    # Time Complexity O(n), Space Complexity O(n)
-    def trap(self, height: List[int]) -> int:
-        length = len(height)
-        if length <= 0:
+    # Time Complexity O(n)-beat 44%, Space Complexity O(n)-beat 50%
+    # Can be further optimized, using less space, by computing leftMax on the fly.
+    class Solution:
+    def trap(self, height):
+        if len(height) <= 0:
             return 0
-        left_max = [0] * length
-        right_max = [0] * length
-        left_max[0] = height[0]
-        end = length - 1
-        right_max[end] = height[end]
+        L = len(height)
+        leftMax, rightMax = [0] * L, [0] * L
+        
+        leftMax[0] = height[0]
+        rightMax[L - 1] = height[L - 1]
 
-        for i in range(1, length):
-            left_max[i] = max(left_max[i - 1], height[i])
+        for i in range(1, L):
+            leftMax[i] = max(leftMax[i-1], height[i])
+        for i in range(L - 2, -1, -1):
+            rightMax[i] = max(rightMax[i+1], height[i])
 
-        for i in range(length - 2, -1, -1):
-            right_max[i] = max(right_max[i + 1], height[i])
+        ans = 0
+        for i, hei in enumerate(height):
+            minH = min(leftMax[i], rightMax[i])
+            ans += minH - height[i]
 
-        res = 0
-        for i in range(1, length - 1):
-            # res += max(0, min(left_max[i], right_max[i]) - height[i])
-            min_max = min(left_max[i], right_max[i])
-            hei = height[i]
-            tmp_res = min_max - hei
-            res += tmp_res
-        return res
+        return ans
 
     # Method 3 - Stack, O(N), O(N)
     def trap(self, height: List[int]) -> int:
