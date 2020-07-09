@@ -152,8 +152,8 @@
 | 53   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/53_Maximum_Subarray.py) | Easy | Define problems in d p idea  |
 |    | [0 1 backpack]() | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/0_1_backpacking.py) |  | recursive, recursive+cache, 01 backpack  |
 | 416   | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/416_Partition_Equal_Subset_Sum.py) | Medium | several number sums to a target, bool return. 0-1 bagProblem, pick or not pick, recursive+cache & dp  |
-| 55   | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/55_Jump_Game.py) | Easy | O(n), and top-down cache TLE |
-
+| 55   | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/55_Jump_Game.py) | Medium | O(n) ok, but top-down cache TLE |
+| 45   | [Jump Game 2](https://leetcode.com/problems/jump-game-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DanamicProgramming/45_Jump_Game_2.py) | Hard | BFS(tricky to define own levels), but top-down cache TLE |
 
 
 ### Heap
