@@ -1,4 +1,17 @@
 class Solution:
+    
+    # Method - record - AC - beat 80%
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        start = -1
+        i = 0
+        seen = dict()
+        res = 0
+        for i, c in enumerate(s):
+            if c in seen and seen[c] > start:
+                start = seen[c]
+            res = max(res, i - start)
+            seen[c] = i
+        return res
 
     # Method 1 - Traditional Sliding Window
     def lengthOfLongestSubstring(self, s: str) -> int:
