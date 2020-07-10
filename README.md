@@ -42,6 +42,7 @@
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/206_Reverse_Linked_List.py) | Easy | 2 ways to reverse in-place|
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/876_Middle_of_the_Linked_list.py) | Easy | slow & fast two points|
 | 21  | [Merge Two Sorted List](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/21_merge_two_sorted_list.py) | Easy | recursive... |
+| 23  | [Merge K Sorted List](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/23_merge_k_sorted_lists.py) | Hard | recursive..., heapq implementing PriorityQueue |
 
 
 ### DFS
