@@ -72,6 +72,7 @@
 |    127  |  [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/127_Word_Ladder.py)| Medium | bfs, construct_dict for neighbors | 
 |    126  |  [Word Ladder 2](https://leetcode.com/problems/word-ladder-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/126_Word_Ladder_2.py)| Hard |bfs, store all shortest path, need to store current path_length, and the first time shortest_path | 
 |    1311  |  [Get Watched Videos by Your Friends](https://leetcode.com/problems/get-watched-videos-by-your-friends/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/1311_Get_Watched_Videos_by_Your_Friends.py)| Medium ||
+|    1514  |  [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/1514_path_with_maximum_probability.py)| Medium |BFS with maxProb path in weighted graph, weights are positive between (0, 1), no weights using seen dict to keep track, has weights using a pre dict, like distance in this case, to track previous maxProb|
 
 
 ### String
