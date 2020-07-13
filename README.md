@@ -15,6 +15,7 @@
 |    | [Two Sum Uniq Pairs with duplicate inputs]() | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/Two_Sum_Uniq_Pairs.py) | Medium     | sort - two points(use while to skip duplicates)|
 | 15   | [3Sum](https://leetcode.com/problems/3sum/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/15_3Sum.py) | Medium     | sort -> based on twoSum|
 | 18   | [4Sum](https://leetcode.com/problems/4sum/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/18_4Sum.py) | Medium     | (Recursive Nsum) based on twoSum|
+| 16   | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/16_3Sum_Closest.py) | Medium     | sort -> return the closest sum(not diff), abs|
 | 42   | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/42_Trapping_Rain_Water.py) | Hard     | Different Methods|
 | 348   | [Design Tic Tac Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/348_Design_Tic_Tac_Toe.py) | Medium     | Store data in a tricky way|
 | 1380   | [Lucky Number in a Matrix](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1380_Lucky_Numbers_in_a_Matrix.py) | Easy     | list(list) fetch row[i], col[j], max(list), list.index(max(list))|
