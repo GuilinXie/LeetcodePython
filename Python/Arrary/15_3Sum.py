@@ -1,4 +1,4 @@
-# base on twoSUm - beat 27%
+# solution 1 - base on twoSUm - beat 27%
 class Solution:
     def threeSum(self, nums):
         res = []
@@ -65,4 +65,4 @@ class Solution:
                         end -= 1
         return res
    
-# Solution 3 - Recursive, - see 4Sum, beat 80%
+ # Solution 3 - Recursive, - see 4Sum, beat 80%
