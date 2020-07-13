@@ -60,6 +60,7 @@
 |    140  |  [Word Break2](https://leetcode.com/problems/word-break-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/BFS/140_Word_Break_2.py)| Hard |dfs+recursive+cache(local variable), bfs(store ending index for the word)  | 
 |    46  |  [Permutations](https://leetcode.com/problems/permutations/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/46_Permutations.py)| Medium |dfs  + backtracking, from itertools import permutations, O(n * n!) time | 
 |  39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/39_Combination_Sum.py)| Medium |dfs, backtracking, from itertools import combinations | 
+|  688|[Knight Probability in ChessBoard](https://leetcode.com/problems/knight-probability-in-chessboard/)|[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/688_knight_probability_in_chessboard.py)| Medium |dfs + cache, probability | 
 
 
 ### BFS
