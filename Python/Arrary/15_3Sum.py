@@ -1,3 +1,4 @@
+# base on twoSUm - beat 27%
 class Solution:
     def threeSum(self, nums):
         res = []
@@ -29,3 +30,39 @@ class Solution:
             else:
                 high -= 1
         return res
+    
+    # solution 2 - one function - beat 19%
+    class Solution:
+    def threeSum(self, nums):
+        if len(nums) < 3:
+            return
+        nums.sort()
+        result = nums[0] + nums[1] + nums[len(nums) - 1]
+        res = []
+        target = 0
+        for i in range(len(nums) - 2):
+            start = i + 1
+            end = len(nums) - 1
+            if i > 0 and nums[i] == nums[i-1]:
+                continue
+            while start < end:
+                s = nums[i] + nums[start] + nums[end]
+                if s > target:
+                    end -= 1
+                    while end >= start and nums[end] == nums[end + 1]:
+                        end -= 1
+                elif s < target:
+                    start += 1
+                    while start <= end and nums[start] == nums[start - 1]:
+                        start += 1
+                else:
+                    res.append([nums[i], nums[start], nums[end]]) 
+                    end -= 1
+                    start += 1
+                    while start <= end and nums[start] == nums[start - 1]:
+                        start += 1
+                    while end >= start and nums[end] == nums[end + 1]:
+                        end -= 1
+        return res
+   
+# Solution 3 - Recursive, - see 4Sum, beat 80%
