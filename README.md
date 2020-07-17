@@ -32,8 +32,8 @@
 |1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/contest/weekly-contest-186/problems/maximum-points-you-can-obtain-from-cards/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1423_Maximum_Points_You_Can_Obtain_from_Cards.py) | Medium | left obtaining + right obtaining, if want to obtain in the middle of left, then must obtail all ones left than that |
 |498 | [Diagonal_Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/498_Diagonal_Traverse.py) | Medium | Diagnal, row+col is the same |
 |1424 | [Diagonal Traverse 2](https://leetcode.com/contest/weekly-contest-186/problems/diagonal-traverse-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/1424_Diagonal_Traverse_2.py) | Medium | similar to 498 |
-
-
+|33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/33_Search_in_Rotated_Sorted_Array.py) | Medium | no duplicates |
+|81 | [Search in Rotated Sorted Array 2](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/81_Search_in_Rotated_Sorted_Array_2.py) | Medium | with duplicates |
 
 ### LinkedList
 | ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
