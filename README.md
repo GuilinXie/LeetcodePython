@@ -90,6 +90,7 @@
 | 28   | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/28_Implement_strStr.py) | Easy | Naive or KMP, tricky to understand getNext for KMP|
 | 1392   | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/1392_Longest_Happy_Prefix.py) | Hard | Naive, use KMP getNext idea to solve|
 | 125   | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/125_Valid_Palindrome.py) | Easy | str.isalnum() [a-zA-Z0-9] return True|
+| 5   | [Longest Palindromeic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/String/5_LongestPalindromicSubstring.py) | Medium | expanding |
 
 
 ### Tree
