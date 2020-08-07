@@ -1,3 +1,5 @@
+# beat 50%
+# time complexity: O(m+n), top1 vote solution in Discussion: https://leetcode.com/problems/multiply-strings/discuss/17605/Easiest-JAVA-Solution-with-Graph-Explanation
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         m = len(num1)
