@@ -35,6 +35,7 @@
 |33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/33_Search_in_Rotated_Sorted_Array.py) | Medium | no duplicates |
 |81 | [Search in Rotated Sorted Array 2](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/81_Search_in_Rotated_Sorted_Array_2.py) | Medium | with duplicates |
 |11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/11_Container_With_Most_Water.py) | Medium | Two Pointers |
+|41 | [41 First Missing Number](https://leetcode.com/problems/first-missing-positive/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/41_First_Missing_Number.py) | Hard | Use index as hash, idea, for positive integers |
 
 
 ### LinkedList
