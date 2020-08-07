@@ -1,4 +1,4 @@
-# Time: beat 50%
+# Time: beat 50%, O(n * 2^n ), for each element, you have 2 choice for picking or not picking, and slicing takes O(n)
 # Space: beat 35%
 class Solution:
     def combinationSum2(self, candidates, target):
