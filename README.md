@@ -40,6 +40,8 @@
 |48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/48_Rotate_Image.py) | Medium | rotate 90 degrees(clockwise), also could be(anti-clockwise, with some change in exchanging the elements) |
 |49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/49_Group_Anagrams.py) | Medium | key = tuple(sorted(w)), if order matters, then could use sort + tuple as the key, or "".join(sorted(w)), as sorted(w) returns a list, list is not hashable |
 |50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/50_Pow_x_y.py) | Medium | pow(x, n) could equal to pow(x * x, n//2) or x * pow(x * x, n // 2) |
+|51 | [N_Queens](https://leetcode.com/problems/n-queens-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/51_N_Queens.py) | Hard | row from 0 - n, place row by row, backtrack |
+
 
 ### LinkedList
 | ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
