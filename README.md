@@ -39,7 +39,7 @@
 |43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/43_Multiply_Strings.py) | Medium | find the right index after multiply |
 |48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/48_Rotate_Image.py) | Medium | rotate 90 degrees(clockwise), also could be(anti-clockwise, with some change in exchanging the elements) |
 |49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/49_Group_Anagrams.py) | Medium | key = tuple(sorted(w)), if order matters, then could use sort + tuple as the key, or "".join(sorted(w)), as sorted(w) returns a list, list is not hashable |
-
+|50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/50_Pow_x_y.py) | Medium | pow(x, n) could equal to pow(x * x, n//2) or x * pow(x * x, n // 2) |
 
 ### LinkedList
 | ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge |
