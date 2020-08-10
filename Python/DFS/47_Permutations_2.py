@@ -1,3 +1,5 @@
+# beat 90%
+# Time Complexity < O(n^2 * n!), from CCI-P52
 class Solution:
     def permuteUnique(self, nums):
         res = []
