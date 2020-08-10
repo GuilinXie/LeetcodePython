@@ -6,7 +6,7 @@ class Solution:
         return res
 
     def dfs(self, nums, path, res):
-        if nums == []:
+        if not nums:   # other options: (if nums == []:  if len(nums) <= 0:)
             res.append(path)
         # dfs & backtracking
         for i in range(len(nums)):
