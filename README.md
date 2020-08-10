@@ -38,7 +38,7 @@
 |41 | [First Missing Number](https://leetcode.com/problems/first-missing-positive/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/41_First_Missing_Number.py) | Hard | Use index as hash, idea, for positive integers |
 |43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/43_Multiply_Strings.py) | Medium | find the right index after multiply |
 |48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/48_Rotate_Image.py) | Medium | rotate 90 degrees(clockwise), also could be(anti-clockwise, with some change in exchanging the elements) |
-|49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/49_Group_Anagrams.py) | Medium | key = tuple(sorted(w)), if order matters, then could use sort + tuple as the key |
+|49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/49_Group_Anagrams.py) | Medium | key = tuple(sorted(w)), if order matters, then could use sort + tuple as the key, or "".join(sorted(w)), as sorted(w) returns a list, list is not hashable |
 
 
 ### LinkedList
