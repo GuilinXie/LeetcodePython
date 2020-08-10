@@ -2,7 +2,7 @@
 
 ### Array
 
-| ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge   |
+| ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge notes  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
 | 54   | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/54_SpiralMatrix.py) | Medium     |    |
 | 59   | [Spiral Matrix 2](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/59_SpiralMatrix2.py) | Medium     |     |
