@@ -1,4 +1,19 @@
 class Solution:
+    # Solution 1.0:
+    # BFS - more neat code, beat 88%
+    def jump(self, nums: List[int]) -> int:
+        L, start, end, step = len(nums), 0, 0, 0
+        while end < L - 1:
+            step += 1
+            maxend = end
+            for i in range(start, maxend + 1):
+                if i + nums[i] >= L - 1:
+                    return step
+                maxend = max(maxend, i + nums[i])
+            start, end = end + 1, maxend
+        return step
+
+class Solution:
     # solution 1 - bfs - beat 13%
     def jump(self, nums: List[int]) -> int:
         if len(nums) <= 1:
