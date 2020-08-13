@@ -1,3 +1,19 @@
+# Solution 1 - beat 70%
+class Solution:
+    def merge(self, intervals):
+        if len(intervals) == 0:
+            return []
+        intervals.sort()
+        ans = [intervals[0]]
+        for cur in intervals[1:]:
+            if cur[0] <= ans[-1][1]:
+                ans[-1][1] = max(cur[1], ans[-1][1])
+            else:
+                ans.append(cur)
+        return ans
+
+
+# Solution 2
 class Solution:
     def merge(self, intervals):
         if len(intervals) <= 1:
