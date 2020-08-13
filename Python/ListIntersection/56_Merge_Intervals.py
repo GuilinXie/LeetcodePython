@@ -1,8 +1,8 @@
 # Solution 1 - beat 70%
 class Solution:
     def merge(self, intervals):
-        if len(intervals) == 0:
-            return []
+        if len(intervals) <= 1:
+            return intervals
         intervals.sort()
         ans = [intervals[0]]
         for cur in intervals[1:]:
