@@ -75,6 +75,8 @@
 |    47  |  [Permutations 2](https://leetcode.com/problems/permutations-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/47_Permutations_2.py)| Medium |dfs  + backtracking, from itertools import permutations, time complexity< O(n ^ 2 * n!) time | 
 |  39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/39_Combination_Sum.py)| Medium |dfs, backtracking, from itertools import combinations | 
 |  688|[Knight Probability in ChessBoard](https://leetcode.com/problems/knight-probability-in-chessboard/)|[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/DFS/688_knight_probability_in_chessboard.py)| Medium |dfs + cache, probability | 
+|  78|[Subsets](https://leetcode.com/problems/subsets/)|[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/78_subsets.py)| Medium |dfs, bit manipulation | 
+|  90|[Subsets 2](https://leetcode.com/problems/subsets-ii/)|[Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/90_subset_2.py)| Medium |dfs, bit manipulation, how to filter dup| 
 
 
 ### BFS
