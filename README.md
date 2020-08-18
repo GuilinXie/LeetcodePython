@@ -42,6 +42,7 @@
 |50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/50_Pow_x_y.py) | Medium | pow(x, n) could equal to pow(x * x, n//2) or x * pow(x * x, n // 2) |
 |51 | [N_Queens](https://leetcode.com/problems/n-queens-ii/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/51_N_Queens.py) | Hard | row from 0 - n, place row by row, backtrack |
 |31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/31_Next_Permutation.py) | Medium | steps from wikipedia, use while search from end to begin |
+|66 | [Add One](https://leetcode.com/problems/plus-one/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/66_Plus_One.py) | Easy | Add one with a explicit carry |
 
 
 ### LinkedList
