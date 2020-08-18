@@ -45,6 +45,8 @@
 | 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/LinkedList/2_Add_Two_Numbers.py) | Medium | carry, digit = divmod(num,10), belongs to linked list|
 |66 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/66_Plus_One.py) | Easy | Add one with a explicit carry |
 |67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/67_Add_Binary.py) | Easy | carry, bit manipulation XOR, AND |
+|369 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Arrary/369_Plus_One_LinkedList.Py) | Medium | check which nodes to modify, and return check dummy.val |
+
 
 
 ### LinkedList
