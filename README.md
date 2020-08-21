@@ -161,6 +161,8 @@
 | ---- | ----- | -------- | ---------- | ------ |
 | 739   | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Stack/739_Daily_Temperatures.py) | Medium | last in first out, otherwise store them for next out |
 | 155   | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Stack/155_Min_Stack.py) | Easy | Store a tuple with two values in the stack |
+| 71   | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/Stack/71_Simplify_Path.py) | Medium | Unix style path |
+
 
 ### Graph
 | ID   | Title                                                        | Solution                                                     | Difficulty | Knowledge                                           |
