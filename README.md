@@ -206,7 +206,7 @@
 ### Recursive
 | ID   | Title | Solution | Difficulty | Locked |
 | ---- | ----- | -------- | ---------- | ------ |
-|      |    Hanoi   |     [Python]()     |            |        |
+|      |    Hanoi   |     [Python](https://github.com/GuilinXie/LeetcodePython/blob/master/Python/hanoi.py)     |            |        |
 |      |       |          |            |        |
 |      |       |          |            |        |
 
