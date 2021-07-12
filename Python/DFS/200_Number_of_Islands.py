@@ -1,26 +1,25 @@
 # Method 1 - original one - AC
 def numIslands(grid):
-    if len(grid) <= 0 or len(grid[0]) <= 0:
+    if len(grid) == 0 or len(grid[0]) == 0:
         return 0
-    r, c = len(grid), len(grid[0])
+    R, C = len(grid), len(grid[0])
     visited = set()
-    res = 0
-    for i in range(r):
-        for j in range(c):
+    count = 0
+    for i in range(R):
+        for j in range(C):
             if (i, j) not in visited and grid[i][j] == "1":
-                res += 1
+                count += 1
                 dfs(grid, i, j, visited)
-    return res
+    return count
 
 
 def dfs(A, i, j, visited):
-    if i < 0 or i >= len(A) or j < 0 or j >= len(A[0]) \
-            or (i, j) in visited or A[i][j] == "0":
-        return
     visited.add((i, j))
+    R, C = len(A), len(A[0])
     neighbors = [(i - 1, j), (i + 1, j), (i, j - 1), (i, j + 1)]
     for new_i, new_j in neighbors:
-        dfs(A, new_i, new_j, visited)
+        if 0 <= new_i < R and 0 <= new_j < C and (i, j) not in visited and A[i][j] == "1":
+            dfs(A, new_i, new_j, visited)
         
 # if A is too large, and we do not want to keep a visited set, and we can change A
 # then we can change A[i][j] = "#", after visiting (i, j)
