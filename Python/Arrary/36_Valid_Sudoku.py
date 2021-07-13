@@ -1,3 +1,58 @@
+# Check row / column/ sub_board separately
+# Time complexity O (m * n)
+# Space complexity O(max(m, n)), where m = 9, n = 9
+class Solution:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        if len(board) != 9 or len(board[0]) != 9:
+            return False
+        
+        for i in range(9):
+            if not check_row(board, i):
+                return False
+            
+        for j in range(9):
+            if not check_column(board, j):
+                return False
+        
+        for i in range(0, 9, 3):
+            for j in range(0, 9, 3):
+                if not check_sub_board(board, i, j):
+                    return False
+        return True
+
+def check_row(board, i):
+    seen = set()
+    for j in range(9):
+        if board[i][j] != ".":
+            if board[i][j] in seen:
+                return False
+            else:
+                seen.add(board[i][j])
+    return True
+
+def check_column(board, j):
+    seen = set()
+    for i in range(9):
+        if board[i][j] != ".":
+            if board[i][j] in seen:
+                return False
+            else:
+                seen.add(board[i][j])
+    return True
+
+def check_sub_board(board, i, j):
+    seen = set()
+    for new_i in range(i, i + 3):
+        for new_j in range(j, j + 3):
+            if board[new_i][new_j] != ".":
+                if board[new_i][new_j] in seen:
+                    return False
+                else:
+                    seen.add(board[new_i][new_j])
+    return True
+        
+
+
 # Solution 1: record digit = board[r][c], then change it to a special character to avoid too many checks in self.isValid()
 # beat 82%
 class Solution:
