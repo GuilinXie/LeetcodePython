@@ -9,14 +9,14 @@ class Solution:
             graph[parent].append(child)
             
         cache = set()
-        for parent in graph.keys():
-            if parent in cache:
+        for node in graph.keys():
+            if node in cache:
                 continue
             seen = set()
-            res = self.dfs(graph, parent, seen, cache)
+            res = self.dfs(graph, node, seen, cache)
             if not res:
                 return False
-            cache.add(parent)
+            cache.add(node)
         return True
 
     def dfs(self, graph, node, seen, cache):
