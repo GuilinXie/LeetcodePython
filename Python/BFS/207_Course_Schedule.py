@@ -3,11 +3,11 @@ class Solution:
     def canFinish(self, n, edges):
         if len(edges) <= 0 or len(edges[0]) <= 0:
             return True
-        graph = dict()
-        for i in range(n):
-            graph[i] = []
-        for item in edges:
-            graph[item[1]].append(item[0])
+        # construct graph
+        graph = {i: [] for i in range(n)}
+        for child, parent in edges:
+            graph[parent].append(child)
+            
         cache = set()
         for parent in graph.keys():
             if parent in cache:
